@@ -42,12 +42,16 @@ pipeline/
   scorer.py           # Weighted scoring engine with time decay + velocity
   decay.py            # Time decay utilities (reused by MCP + dashboard)
   config.py           # Config loader for YAML files
+  explainer.py        # LLM reasoning — Claude API + template fallback (Phase 3)
 
 alerts/
   engine.py           # Alert evaluation — checks scores against thresholds (Phase 4)
 
 server/
-  server.py           # FastMCP server for Claude Desktop (Phase 3)
+  server.py           # FastMCP server with 5 tools (Phase 3)
+
+scripts/
+  test_mcp_tools.py   # MCP tool validation script (Phase 3)
 
 config/
   weights.yaml        # Signal weights, time decay half-lives, velocity settings
@@ -235,7 +239,7 @@ score explainable.
 
 1. ✅ **Phase 1 — Skeleton:** Adapter interfaces, scoring engine, schema, config
 2. ✅ **Phase 2 — Scoring Engine + Mock Data:** Adapters wired to beacon-data synthetic signals; DataLoader, run_scoring.py; 5987 signals across 434 accounts scored end-to-end
-3. 🔲 **Phase 3 — LLM Layer + MCP Server:** Claude API for explanations, tribal pattern detection, FastMCP server
+3. ✅ **Phase 3 — LLM Layer + MCP Server:** Claude API explainer with template fallback, FastMCP server with 5 tools, validation script
 4. 🔲 **Phase 4 — Alert Delivery:** Alert evaluation, Slack bot, feedback buttons
 5. 🔲 **Phase 5 — Dashboard:** Next.js frontend, score breakdown panel, signal timeline
 6. 🔲 **Phase 6 — Rep Feedback Loop:** Slack form, feedback aggregation, learning system
@@ -291,6 +295,12 @@ cp ../beacon-data/output/*.csv data/synthetic/
 
 # Run end-to-end scoring (Phase 2+)
 python pipeline/run_scoring.py
+
+# Validate MCP tools (Phase 3+)
+python scripts/test_mcp_tools.py
+
+# Run MCP server locally (Phase 3+)
+python server/server.py
 ```
 
 ## Response Format
