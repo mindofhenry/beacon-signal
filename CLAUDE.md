@@ -55,7 +55,6 @@ config/
 
 data/
   synthetic/          # Copied from beacon-data/output/ — never generated here
-  mock_signals.json   # Legacy placeholder — being replaced by synthetic/
 
 migrations/
   001_signal_schema.sql  # Supabase schema (signal schema, not public)
@@ -235,7 +234,7 @@ score explainable.
 ## Build Phases
 
 1. ✅ **Phase 1 — Skeleton:** Adapter interfaces, scoring engine, schema, config
-2. 🔲 **Phase 2 — Scoring Engine + Mock Data:** Wire adapters to beacon-data, end-to-end scoring
+2. ✅ **Phase 2 — Scoring Engine + Mock Data:** Adapters wired to beacon-data synthetic signals; DataLoader, run_scoring.py; 5987 signals across 434 accounts scored end-to-end
 3. 🔲 **Phase 3 — LLM Layer + MCP Server:** Claude API for explanations, tribal pattern detection, FastMCP server
 4. 🔲 **Phase 4 — Alert Delivery:** Alert evaluation, Slack bot, feedback buttons
 5. 🔲 **Phase 5 — Dashboard:** Next.js frontend, score breakdown panel, signal timeline
@@ -286,11 +285,11 @@ venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Copy synthetic data from beacon-data
+# Copy synthetic data from beacon-data (refresh when beacon-data regenerates)
 cp ../beacon-data/output/*.json data/synthetic/
 cp ../beacon-data/output/*.csv data/synthetic/
 
-# Run scoring engine (Phase 2+)
+# Run end-to-end scoring (Phase 2+)
 python pipeline/run_scoring.py
 ```
 

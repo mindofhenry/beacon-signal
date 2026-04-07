@@ -1,0 +1,109 @@
+[
+  {
+    "id": "tp_001",
+    "name": "Series B + CISO + Pricing Engagement",
+    "signal_conditions": {
+      "funding_stage": "Series B",
+      "contact_title_contains": "CISO",
+      "signal_type_required": "pricing_page_visit"
+    },
+    "historical_conversion_rate": 3.2,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 8,
+    "confidence": "high",
+    "discovered_date": "2025-12-15",
+    "status": "confirmed"
+  },
+  {
+    "id": "tp_002",
+    "name": "Job Change + Content Download \u2192 Pipeline Creation",
+    "signal_conditions": {
+      "signal_type_required": "job_change",
+      "followed_by": "content_download",
+      "within_days": 30
+    },
+    "historical_conversion_rate": 2.8,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 12,
+    "confidence": "high",
+    "discovered_date": "2025-11-20",
+    "status": "confirmed"
+  },
+  {
+    "id": "tp_003",
+    "name": "Funding Event + Competitor Mention \u2192 Evaluation",
+    "signal_conditions": {
+      "signal_type_required": "funding_event",
+      "followed_by": "competitor_mention",
+      "within_days": 60
+    },
+    "historical_conversion_rate": 2.4,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 6,
+    "confidence": "medium",
+    "discovered_date": "2026-01-10",
+    "status": "confirmed"
+  },
+  {
+    "id": "tp_004",
+    "name": "Multi-Signal Cluster \u2192 Fast Close",
+    "signal_conditions": {
+      "min_signals_in_week": 4,
+      "must_include": [
+        "pricing_page_visit",
+        "web_visit"
+      ]
+    },
+    "historical_conversion_rate": 4.1,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 5,
+    "confidence": "medium",
+    "discovered_date": "2026-02-01",
+    "status": "monitoring"
+  },
+  {
+    "id": "tp_005",
+    "name": "Intent Surge + Case Study View \u2192 Champion Emergence",
+    "signal_conditions": {
+      "signal_type_required": "intent_surge",
+      "followed_by": "case_study_view",
+      "within_days": 14
+    },
+    "historical_conversion_rate": 1.9,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 9,
+    "confidence": "medium",
+    "discovered_date": "2025-12-28",
+    "status": "confirmed"
+  },
+  {
+    "id": "tp_006",
+    "name": "Executive Change + Pricing Page \u2192 Budget Cycle Entry",
+    "signal_conditions": {
+      "signal_type_required": "executive_change",
+      "followed_by": "pricing_page_visit",
+      "within_days": 45
+    },
+    "historical_conversion_rate": 3.5,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 4,
+    "confidence": "low",
+    "discovered_date": "2026-03-01",
+    "status": "emerging"
+  },
+  {
+    "id": "tp_007",
+    "name": "Technology Install + Web Visit Cluster \u2192 Platform Evaluation",
+    "signal_conditions": {
+      "signal_type_required": "technology_install",
+      "followed_by_cluster": "web_visit",
+      "min_cluster_size": 3
+    },
+    "historical_conversion_rate": 2.1,
+    "baseline_conversion_rate": 1.0,
+    "sample_size": 7,
+    "confidence": "medium",
+    "discovered_date": "2026-01-25",
+    "status": "confirmed"
+  }
+]

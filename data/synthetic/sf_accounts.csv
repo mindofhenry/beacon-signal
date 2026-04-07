@@ -1,0 +1,501 @@
+Id,Name,Industry,NumberOfEmployees,BillingCity
+sf_acc_001,Fortress Security Corp,cybersecurity,2800,Washington DC
+sf_acc_002,IronShield Technologies,cybersecurity,720,New York
+sf_acc_003,Meridian Financial Group,financial services,3500,San Francisco
+sf_acc_004,Apex Health Systems,healthcare,650,Minneapolis
+sf_acc_005,Nexus SaaS Labs,SaaS,340,Seattle
+sf_acc_006,Hartwell Industries,manufacturing,4200,Chicago
+sf_acc_007,ClearPath Health,healthcare,280,Chicago
+sf_acc_008,Summit Bank & Trust,financial services,850,Austin
+sf_acc_009,Stackify Inc,SaaS,310,Minneapolis
+sf_acc_010,Kestrel Defense Systems,cybersecurity,780,New York
+sf_acc_011,Pinnacle Manufacturing Co,manufacturing,3200,Washington DC
+sf_acc_012,Cloudix Corp,SaaS,85,Minneapolis
+sf_acc_013,Vantage Security Group,cybersecurity,420,Portland
+sf_acc_014,Redrock Financial,financial services,260,Dallas
+sf_acc_015,Medcore Solutions,healthcare,580,New York
+sf_acc_016,BluePeak Systems,SaaS,120,Los Angeles
+sf_acc_017,Ironclad Defense,cybersecurity,350,Denver
+sf_acc_018,Harbor Capital Group,financial services,2600,San Francisco
+sf_acc_019,NovaMed Health,healthcare,290,San Francisco
+sf_acc_020,Quickscale Technologies,SaaS,65,New York
+sf_acc_021,Steelman Industries,manufacturing,4500,Chicago
+sf_acc_022,CipherGuard Inc,cybersecurity,95,Chicago
+sf_acc_023,Atlas Financial Services,financial services,690,Dallas
+sf_acc_024,WestPoint Healthcare,healthcare,550,Los Angeles
+sf_acc_025,Titan Cloud Corp,SaaS,480,San Francisco
+sf_acc_026,Summit Technologies,financial services,174,Dallas
+sf_acc_027,Pike Innovations,manufacturing,731,Chicago
+sf_acc_028,Pinnacle Group,SaaS,924,Minneapolis
+sf_acc_029,Onyx Security,SaaS,595,Washington DC
+sf_acc_030,Beacon Industries,cybersecurity,515,Minneapolis
+sf_acc_031,Vanguard Dynamics,healthcare,401,Dallas
+sf_acc_032,Helix Health,SaaS,154,Denver
+sf_acc_033,Opal Systems,SaaS,617,Chicago
+sf_acc_034,Trident Ventures,cybersecurity,225,Atlanta
+sf_acc_035,Nova Financial,SaaS,328,Los Angeles
+sf_acc_036,Haven Networks,SaaS,305,Seattle
+sf_acc_037,Aegis Enterprises,financial services,64,Phoenix
+sf_acc_038,Trellis Logistics,healthcare,14049,Charlotte
+sf_acc_039,Aether Intelligence,SaaS,154,San Francisco
+sf_acc_040,Maverick Consulting,SaaS,196,Phoenix
+sf_acc_041,Atlas Services,cybersecurity,98,Phoenix
+sf_acc_042,Xenon Digital,financial services,498,Austin
+sf_acc_043,Neon Partners,SaaS,448,Minneapolis
+sf_acc_044,Bastion Analytics,cybersecurity,105,Denver
+sf_acc_045,Cordova Software,financial services,348,Boston
+sf_acc_046,Wren Labs,financial services,128,Seattle
+sf_acc_047,Ascent Capital,manufacturing,173,Austin
+sf_acc_048,Keystone Data,SaaS,372,Chicago
+sf_acc_049,Quantum Solutions,cybersecurity,1589,Phoenix
+sf_acc_050,Northstar Platforms,manufacturing,281,Boston
+sf_acc_051,Ironbridge Automation,healthcare,2177,New York
+sf_acc_052,Volta Corp,SaaS,850,New York
+sf_acc_053,Terra Engineering,manufacturing,1186,Denver
+sf_acc_054,Riviera Works,healthcare,2436,New York
+sf_acc_055,Yield Cloud,cybersecurity,65,Boston
+sf_acc_056,Vector Technologies,financial services,228,Charlotte
+sf_acc_057,Cascade Innovations,SaaS,331,Boston
+sf_acc_058,Evergreen Group,manufacturing,118,Los Angeles
+sf_acc_059,Stratos Security,healthcare,344,Seattle
+sf_acc_060,Paladin Industries,financial services,475,Phoenix
+sf_acc_061,Obsidian Dynamics,manufacturing,829,San Francisco
+sf_acc_062,Elevate Health,financial services,495,Minneapolis
+sf_acc_063,Radian Systems,SaaS,241,Atlanta
+sf_acc_064,Optima Ventures,cybersecurity,232,Dallas
+sf_acc_065,Solace Financial,cybersecurity,480,New York
+sf_acc_066,Clearwater Networks,cybersecurity,84,Portland
+sf_acc_067,Lumen Enterprises,SaaS,192,Denver
+sf_acc_068,Halcyon Logistics,manufacturing,911,New York
+sf_acc_069,Fortis Intelligence,cybersecurity,167,Dallas
+sf_acc_070,Polaris Consulting,cybersecurity,192,Seattle
+sf_acc_071,Veridian Services,healthcare,14982,Charlotte
+sf_acc_072,Citadel Digital,healthcare,364,Washington DC
+sf_acc_073,Nimbus Partners,cybersecurity,238,Los Angeles
+sf_acc_074,Talon Analytics,healthcare,611,Portland
+sf_acc_075,Cipher Software,cybersecurity,131,Charlotte
+sf_acc_076,Kinetic Labs,SaaS,663,Boston
+sf_acc_077,Ridgeline Capital,cybersecurity,2402,Los Angeles
+sf_acc_078,Axiom Data,cybersecurity,780,Chicago
+sf_acc_079,Argon Solutions,financial services,483,Minneapolis
+sf_acc_080,Lyric Platforms,healthcare,755,New York
+sf_acc_081,Flint Automation,financial services,930,San Francisco
+sf_acc_082,Vigil Corp,manufacturing,577,Washington DC
+sf_acc_083,Sigma Engineering,manufacturing,86,Chicago
+sf_acc_084,Paragon Works,manufacturing,1380,Phoenix
+sf_acc_085,Zenith Cloud,financial services,2021,Seattle
+sf_acc_086,Crest Technologies,SaaS,4432,New York
+sf_acc_087,Metric Innovations,SaaS,152,Charlotte
+sf_acc_088,Fulcrum Group,financial services,317,Chicago
+sf_acc_089,Relay Security,financial services,1158,Charlotte
+sf_acc_090,Vertex Industries,cybersecurity,731,New York
+sf_acc_091,Ember Dynamics,cybersecurity,247,Denver
+sf_acc_092,Zephyr Health,cybersecurity,487,Seattle
+sf_acc_093,Radix Systems,SaaS,350,Atlanta
+sf_acc_094,Sable Ventures,SaaS,446,Washington DC
+sf_acc_095,Sentinel Financial,financial services,197,Charlotte
+sf_acc_096,Ardent Networks,healthcare,712,Boston
+sf_acc_097,Quasar Enterprises,cybersecurity,800,Austin
+sf_acc_098,Cobalt Logistics,healthcare,823,Boston
+sf_acc_099,Juno Intelligence,financial services,511,Boston
+sf_acc_100,Equinox Consulting,manufacturing,408,Chicago
+sf_acc_101,Volta Partners,cybersecurity,330,Washington DC
+sf_acc_102,Ironbridge Works,cybersecurity,73,Seattle
+sf_acc_103,Trellis Platforms,financial services,2488,Minneapolis
+sf_acc_104,Optima Engineering,cybersecurity,418,Portland
+sf_acc_105,Kinetic Group,SaaS,432,Washington DC
+sf_acc_106,Halcyon Intelligence,SaaS,230,Washington DC
+sf_acc_107,Riviera Logistics,SaaS,732,New York
+sf_acc_108,Ionic Solutions,manufacturing,92,Los Angeles
+sf_acc_109,Quantum Networks,healthcare,2493,Washington DC
+sf_acc_110,Nebula Innovations,cybersecurity,92,Austin
+sf_acc_111,Haven Corp,healthcare,3909,Dallas
+sf_acc_112,Evergreen Software,SaaS,204,Minneapolis
+sf_acc_113,Northstar Analytics,cybersecurity,164,Chicago
+sf_acc_114,Unity Enterprises,SaaS,494,Austin
+sf_acc_115,Cipher Labs,SaaS,306,Atlanta
+sf_acc_116,Cascade Capital,SaaS,140,Denver
+sf_acc_117,Wren Data,manufacturing,77,Seattle
+sf_acc_118,Caliber Technologies,financial services,5042,Portland
+sf_acc_119,Aegis Cloud,SaaS,930,Washington DC
+sf_acc_120,Keystone Industries,SaaS,121,Minneapolis
+sf_acc_121,Stratos Systems,financial services,707,Dallas
+sf_acc_122,Zephyr Digital,SaaS,603,Chicago
+sf_acc_123,Equinox Security,manufacturing,55,Washington DC
+sf_acc_124,Paragon Services,cybersecurity,473,Boston
+sf_acc_125,Nova Automation,cybersecurity,626,Charlotte
+sf_acc_126,Onyx Consulting,SaaS,369,Phoenix
+sf_acc_127,Fulcrum Health,SaaS,801,Phoenix
+sf_acc_128,Axiom Ventures,SaaS,7181,San Francisco
+sf_acc_129,Sentinel Partners,manufacturing,489,Chicago
+sf_acc_130,Lumen Works,cybersecurity,7759,Charlotte
+sf_acc_131,Crest Platforms,SaaS,918,San Francisco
+sf_acc_132,Xenon Engineering,manufacturing,3980,Phoenix
+sf_acc_133,Nimbus Group,SaaS,251,Boston
+sf_acc_134,Drake Intelligence,SaaS,200,Denver
+sf_acc_135,Ember Logistics,cybersecurity,3101,Seattle
+sf_acc_136,Veridian Solutions,healthcare,135,New York
+sf_acc_137,Metric Financial,manufacturing,174,Chicago
+sf_acc_138,Ridgeline Networks,healthcare,161,Portland
+sf_acc_139,Granite Innovations,manufacturing,3660,Los Angeles
+sf_acc_140,Juno Corp,SaaS,2514,Portland
+sf_acc_141,Radian Analytics,manufacturing,104,Minneapolis
+sf_acc_142,Trident Enterprises,healthcare,133,Boston
+sf_acc_143,Apex Labs,financial services,339,Chicago
+sf_acc_144,Clearwater Capital,SaaS,549,Washington DC
+sf_acc_145,Pike Dynamics,manufacturing,191,Atlanta
+sf_acc_146,Quasar Data,cybersecurity,3493,Denver
+sf_acc_147,Neon Technologies,financial services,688,Portland
+sf_acc_148,Cobalt Cloud,manufacturing,502,Portland
+sf_acc_149,Sigma Industries,financial services,784,Washington DC
+sf_acc_150,Aether Systems,healthcare,1674,Atlanta
+sf_acc_151,Elevate Digital,healthcare,908,Austin
+sf_acc_152,Orion Security,financial services,112,Seattle
+sf_acc_153,Bastion Services,SaaS,113,Austin
+sf_acc_154,Maverick Automation,cybersecurity,6545,Chicago
+sf_acc_155,Helix Consulting,manufacturing,382,Minneapolis
+sf_acc_156,Vertex Health,cybersecurity,105,Dallas
+sf_acc_157,Relay Ventures,financial services,168,Dallas
+sf_acc_158,Citadel Partners,financial services,1249,Seattle
+sf_acc_159,Argon Works,financial services,490,Minneapolis
+sf_acc_160,Flint Platforms,SaaS,306,Los Angeles
+sf_acc_161,Radix Engineering,manufacturing,3513,Denver
+sf_acc_162,Prism Group,financial services,467,Portland
+sf_acc_163,Ardent Intelligence,manufacturing,277,Los Angeles
+sf_acc_164,Yield Logistics,SaaS,85,Denver
+sf_acc_165,Polaris Solutions,cybersecurity,92,Boston
+sf_acc_166,Lyric Financial,SaaS,436,Chicago
+sf_acc_167,Sterling Networks,cybersecurity,310,Austin
+sf_acc_168,Zenith Innovations,cybersecurity,150,Dallas
+sf_acc_169,Paladin Corp,cybersecurity,14850,Atlanta
+sf_acc_170,Ascent Software,cybersecurity,4326,New York
+sf_acc_171,Sable Analytics,financial services,2861,Phoenix
+sf_acc_172,Pinnacle Enterprises,SaaS,3693,San Francisco
+sf_acc_173,Opal Labs,healthcare,450,Charlotte
+sf_acc_174,Summit Capital,manufacturing,156,New York
+sf_acc_175,Vector Dynamics,cybersecurity,450,Austin
+sf_acc_176,Beacon Data,cybersecurity,394,Washington DC
+sf_acc_177,Fortis Technologies,manufacturing,51,Austin
+sf_acc_178,Talon Cloud,financial services,1139,Phoenix
+sf_acc_179,Vigil Industries,financial services,213,Washington DC
+sf_acc_180,Terra Systems,manufacturing,117,Denver
+sf_acc_181,Solace Digital,financial services,974,Los Angeles
+sf_acc_182,Obsidian Security,financial services,480,New York
+sf_acc_183,Volta Financial,cybersecurity,1543,Denver
+sf_acc_184,Ironbridge Networks,cybersecurity,149,Denver
+sf_acc_185,Trellis Innovations,financial services,6665,Los Angeles
+sf_acc_186,Optima Corp,SaaS,3207,Atlanta
+sf_acc_187,Kinetic Software,cybersecurity,244,Dallas
+sf_acc_188,Halcyon Analytics,cybersecurity,824,Seattle
+sf_acc_189,Riviera Enterprises,SaaS,351,Dallas
+sf_acc_190,Ionic Labs,SaaS,172,Charlotte
+sf_acc_191,Atlas Capital,SaaS,778,San Francisco
+sf_acc_192,Quantum Dynamics,financial services,443,Washington DC
+sf_acc_193,Nebula Data,healthcare,154,Minneapolis
+sf_acc_194,Haven Technologies,cybersecurity,1658,New York
+sf_acc_195,Evergreen Cloud,financial services,181,Washington DC
+sf_acc_196,Northstar Industries,financial services,694,Portland
+sf_acc_197,Unity Systems,SaaS,901,Dallas
+sf_acc_198,Cipher Digital,financial services,53,Phoenix
+sf_acc_199,Cascade Security,financial services,11740,Seattle
+sf_acc_200,Vanguard Services,SaaS,3388,Phoenix
+sf_acc_201,Wren Automation,cybersecurity,112,Washington DC
+sf_acc_202,Caliber Consulting,financial services,139,Boston
+sf_acc_203,Aegis Health,SaaS,237,New York
+sf_acc_204,Keystone Ventures,cybersecurity,131,Seattle
+sf_acc_205,Stratos Partners,SaaS,415,Denver
+sf_acc_206,Zephyr Works,SaaS,129,Austin
+sf_acc_207,Equinox Platforms,SaaS,891,Atlanta
+sf_acc_208,Paragon Engineering,financial services,348,San Francisco
+sf_acc_209,Nova Group,cybersecurity,1872,Minneapolis
+sf_acc_210,Onyx Intelligence,healthcare,218,Portland
+sf_acc_211,Fulcrum Logistics,healthcare,786,Minneapolis
+sf_acc_212,Axiom Solutions,manufacturing,59,Seattle
+sf_acc_213,Lumen Networks,healthcare,153,Dallas
+sf_acc_214,Crest Innovations,cybersecurity,87,Phoenix
+sf_acc_215,Xenon Corp,SaaS,136,Austin
+sf_acc_216,Nimbus Software,SaaS,288,Dallas
+sf_acc_217,Drake Analytics,manufacturing,76,Portland
+sf_acc_218,Ember Enterprises,cybersecurity,388,New York
+sf_acc_219,Veridian Labs,financial services,74,Charlotte
+sf_acc_220,Metric Capital,healthcare,157,Washington DC
+sf_acc_221,Ridgeline Dynamics,SaaS,320,Seattle
+sf_acc_222,Granite Data,cybersecurity,549,Charlotte
+sf_acc_223,Juno Technologies,financial services,990,Washington DC
+sf_acc_224,Cordova Cloud,SaaS,445,Dallas
+sf_acc_225,Radian Industries,cybersecurity,189,Los Angeles
+sf_acc_226,Trident Systems,cybersecurity,2262,Chicago
+sf_acc_227,Apex Digital,financial services,5612,Austin
+sf_acc_228,Clearwater Security,manufacturing,419,Boston
+sf_acc_229,Pike Services,cybersecurity,2590,Phoenix
+sf_acc_230,Quasar Automation,cybersecurity,97,Austin
+sf_acc_231,Neon Consulting,financial services,695,Dallas
+sf_acc_232,Cobalt Health,cybersecurity,2508,Phoenix
+sf_acc_233,Sigma Ventures,manufacturing,85,Portland
+sf_acc_234,Aether Partners,SaaS,4278,Dallas
+sf_acc_235,Elevate Works,financial services,104,Portland
+sf_acc_236,Orion Platforms,manufacturing,526,San Francisco
+sf_acc_237,Bastion Engineering,SaaS,367,Los Angeles
+sf_acc_238,Maverick Group,healthcare,528,Boston
+sf_acc_239,Helix Intelligence,SaaS,424,Atlanta
+sf_acc_240,Vertex Logistics,financial services,239,San Francisco
+sf_acc_241,Relay Solutions,cybersecurity,177,New York
+sf_acc_242,Citadel Financial,financial services,91,Portland
+sf_acc_243,Argon Networks,healthcare,404,Boston
+sf_acc_244,Flint Innovations,cybersecurity,438,Portland
+sf_acc_245,Radix Corp,cybersecurity,142,Charlotte
+sf_acc_246,Prism Software,SaaS,6007,Phoenix
+sf_acc_247,Ardent Analytics,cybersecurity,191,Seattle
+sf_acc_248,Yield Enterprises,healthcare,192,Chicago
+sf_acc_249,Polaris Labs,SaaS,588,San Francisco
+sf_acc_250,Lyric Capital,healthcare,759,Chicago
+sf_acc_251,Sterling Dynamics,healthcare,700,Portland
+sf_acc_252,Zenith Data,SaaS,1403,Los Angeles
+sf_acc_253,Paladin Technologies,cybersecurity,431,New York
+sf_acc_254,Ascent Cloud,SaaS,906,New York
+sf_acc_255,Sable Industries,manufacturing,579,Minneapolis
+sf_acc_256,Pinnacle Systems,cybersecurity,948,Atlanta
+sf_acc_257,Opal Digital,SaaS,1956,Charlotte
+sf_acc_258,Summit Security,manufacturing,313,New York
+sf_acc_259,Vector Services,cybersecurity,156,Phoenix
+sf_acc_260,Beacon Automation,financial services,53,Dallas
+sf_acc_261,Fortis Consulting,healthcare,968,Phoenix
+sf_acc_262,Talon Health,SaaS,486,Austin
+sf_acc_263,Vigil Ventures,SaaS,4555,Austin
+sf_acc_264,Terra Partners,cybersecurity,473,Washington DC
+sf_acc_265,Solace Works,SaaS,76,Atlanta
+sf_acc_266,Obsidian Platforms,healthcare,391,Dallas
+sf_acc_267,Volta Capital,cybersecurity,837,Austin
+sf_acc_268,Ironbridge Dynamics,healthcare,2776,Seattle
+sf_acc_269,Trellis Data,SaaS,385,Dallas
+sf_acc_270,Optima Technologies,manufacturing,165,Charlotte
+sf_acc_271,Kinetic Cloud,cybersecurity,1681,Los Angeles
+sf_acc_272,Halcyon Industries,healthcare,212,Denver
+sf_acc_273,Riviera Systems,financial services,7131,Chicago
+sf_acc_274,Ionic Digital,manufacturing,971,Portland
+sf_acc_275,Atlas Security,cybersecurity,1852,Dallas
+sf_acc_276,Quantum Services,SaaS,359,Phoenix
+sf_acc_277,Nebula Automation,healthcare,208,Minneapolis
+sf_acc_278,Haven Consulting,financial services,408,Minneapolis
+sf_acc_279,Evergreen Health,cybersecurity,199,Chicago
+sf_acc_280,Northstar Ventures,cybersecurity,419,Minneapolis
+sf_acc_281,Unity Partners,financial services,430,Seattle
+sf_acc_282,Cipher Works,cybersecurity,126,Denver
+sf_acc_283,Cascade Platforms,healthcare,6405,Washington DC
+sf_acc_284,Vanguard Engineering,manufacturing,1435,Washington DC
+sf_acc_285,Wren Group,SaaS,412,Boston
+sf_acc_286,Caliber Intelligence,manufacturing,119,Atlanta
+sf_acc_287,Aegis Logistics,healthcare,4858,Portland
+sf_acc_288,Keystone Solutions,SaaS,113,Dallas
+sf_acc_289,Stratos Financial,financial services,645,Atlanta
+sf_acc_290,Zephyr Networks,healthcare,263,New York
+sf_acc_291,Equinox Innovations,SaaS,3882,Chicago
+sf_acc_292,Paragon Corp,manufacturing,108,Chicago
+sf_acc_293,Nova Software,cybersecurity,273,New York
+sf_acc_294,Onyx Analytics,SaaS,730,Boston
+sf_acc_295,Fulcrum Enterprises,cybersecurity,12767,San Francisco
+sf_acc_296,Axiom Labs,cybersecurity,261,Los Angeles
+sf_acc_297,Sentinel Capital,manufacturing,453,Dallas
+sf_acc_298,Lumen Dynamics,financial services,223,Chicago
+sf_acc_299,Crest Data,healthcare,668,Los Angeles
+sf_acc_300,Xenon Technologies,SaaS,499,Chicago
+sf_acc_301,Nimbus Cloud,healthcare,356,San Francisco
+sf_acc_302,Drake Industries,manufacturing,142,New York
+sf_acc_303,Ember Systems,SaaS,705,Minneapolis
+sf_acc_304,Veridian Digital,manufacturing,252,Washington DC
+sf_acc_305,Metric Security,cybersecurity,200,San Francisco
+sf_acc_306,Ridgeline Services,healthcare,491,Chicago
+sf_acc_307,Granite Automation,financial services,409,New York
+sf_acc_308,Juno Consulting,financial services,59,Portland
+sf_acc_309,Cordova Health,healthcare,4720,San Francisco
+sf_acc_310,Radian Ventures,cybersecurity,145,Charlotte
+sf_acc_311,Trident Partners,cybersecurity,3290,Boston
+sf_acc_312,Apex Works,healthcare,111,New York
+sf_acc_313,Clearwater Platforms,healthcare,128,Dallas
+sf_acc_314,Pike Engineering,healthcare,3211,Chicago
+sf_acc_315,Quasar Group,financial services,90,Seattle
+sf_acc_316,Neon Intelligence,cybersecurity,531,Washington DC
+sf_acc_317,Sigma Solutions,financial services,12265,Atlanta
+sf_acc_318,Aether Financial,cybersecurity,384,Chicago
+sf_acc_319,Elevate Networks,healthcare,790,Dallas
+sf_acc_320,Orion Innovations,healthcare,956,Austin
+sf_acc_321,Bastion Corp,manufacturing,3406,Minneapolis
+sf_acc_322,Maverick Software,SaaS,305,Portland
+sf_acc_323,Helix Analytics,healthcare,4688,Portland
+sf_acc_324,Vertex Enterprises,healthcare,611,Los Angeles
+sf_acc_325,Relay Labs,SaaS,650,Los Angeles
+sf_acc_326,Citadel Capital,SaaS,353,Atlanta
+sf_acc_327,Argon Dynamics,SaaS,881,Chicago
+sf_acc_328,Flint Data,manufacturing,1020,Phoenix
+sf_acc_329,Radix Technologies,manufacturing,435,Atlanta
+sf_acc_330,Prism Cloud,healthcare,376,Phoenix
+sf_acc_331,Ardent Industries,financial services,129,Denver
+sf_acc_332,Yield Systems,financial services,1957,Chicago
+sf_acc_333,Polaris Digital,cybersecurity,87,New York
+sf_acc_334,Lyric Security,SaaS,851,New York
+sf_acc_335,Sterling Services,financial services,169,Washington DC
+sf_acc_336,Zenith Automation,financial services,132,Denver
+sf_acc_337,Paladin Consulting,cybersecurity,352,Boston
+sf_acc_338,Ascent Health,cybersecurity,846,Denver
+sf_acc_339,Pinnacle Partners,healthcare,249,Denver
+sf_acc_340,Opal Works,manufacturing,314,Atlanta
+sf_acc_341,Summit Platforms,SaaS,4698,Charlotte
+sf_acc_342,Vector Engineering,manufacturing,694,Minneapolis
+sf_acc_343,Beacon Group,financial services,201,San Francisco
+sf_acc_344,Talon Logistics,manufacturing,826,Washington DC
+sf_acc_345,Vigil Solutions,cybersecurity,8403,Washington DC
+sf_acc_346,Terra Financial,cybersecurity,340,Washington DC
+sf_acc_347,Solace Networks,SaaS,464,New York
+sf_acc_348,Obsidian Innovations,SaaS,194,San Francisco
+sf_acc_349,Volta Security,cybersecurity,174,Denver
+sf_acc_350,Ironbridge Services,healthcare,671,Minneapolis
+sf_acc_351,Trellis Automation,manufacturing,80,Boston
+sf_acc_352,Optima Consulting,cybersecurity,409,Phoenix
+sf_acc_353,Kinetic Health,manufacturing,215,Charlotte
+sf_acc_354,Halcyon Ventures,SaaS,123,New York
+sf_acc_355,Riviera Partners,SaaS,172,Chicago
+sf_acc_356,Ionic Works,SaaS,523,Chicago
+sf_acc_357,Atlas Platforms,cybersecurity,4055,Chicago
+sf_acc_358,Quantum Engineering,financial services,3939,Dallas
+sf_acc_359,Nebula Group,SaaS,2446,Atlanta
+sf_acc_360,Haven Intelligence,financial services,66,Austin
+sf_acc_361,Evergreen Logistics,cybersecurity,940,Denver
+sf_acc_362,Northstar Solutions,manufacturing,4667,Austin
+sf_acc_363,Unity Financial,SaaS,116,Seattle
+sf_acc_364,Cipher Networks,financial services,1000,Atlanta
+sf_acc_365,Vanguard Corp,financial services,155,Chicago
+sf_acc_366,Wren Software,SaaS,136,Charlotte
+sf_acc_367,Caliber Analytics,financial services,93,Portland
+sf_acc_368,Keystone Labs,cybersecurity,332,New York
+sf_acc_369,Stratos Capital,healthcare,106,Atlanta
+sf_acc_370,Zephyr Dynamics,healthcare,88,Phoenix
+sf_acc_371,Equinox Data,financial services,655,Charlotte
+sf_acc_372,Paragon Technologies,cybersecurity,135,Charlotte
+sf_acc_373,Nova Cloud,SaaS,259,Dallas
+sf_acc_374,Onyx Industries,SaaS,417,New York
+sf_acc_375,Fulcrum Systems,manufacturing,110,San Francisco
+sf_acc_376,Axiom Digital,cybersecurity,114,Washington DC
+sf_acc_377,Sentinel Security,manufacturing,203,Dallas
+sf_acc_378,Lumen Services,cybersecurity,611,Charlotte
+sf_acc_379,Crest Automation,financial services,860,San Francisco
+sf_acc_380,Xenon Consulting,financial services,480,New York
+sf_acc_381,Nimbus Health,financial services,969,Portland
+sf_acc_382,Drake Ventures,cybersecurity,283,Phoenix
+sf_acc_383,Ember Partners,cybersecurity,2395,Charlotte
+sf_acc_384,Veridian Works,manufacturing,463,Chicago
+sf_acc_385,Metric Platforms,financial services,267,Austin
+sf_acc_386,Ridgeline Engineering,SaaS,530,Denver
+sf_acc_387,Granite Group,SaaS,747,Atlanta
+sf_acc_388,Cordova Logistics,cybersecurity,184,Atlanta
+sf_acc_389,Radian Solutions,healthcare,232,Chicago
+sf_acc_390,Trident Financial,SaaS,982,Charlotte
+sf_acc_391,Apex Networks,cybersecurity,475,Denver
+sf_acc_392,Clearwater Innovations,cybersecurity,303,Portland
+sf_acc_393,Pike Corp,financial services,810,San Francisco
+sf_acc_394,Quasar Software,financial services,155,Austin
+sf_acc_395,Neon Analytics,financial services,1629,Denver
+sf_acc_396,Cobalt Enterprises,cybersecurity,139,San Francisco
+sf_acc_397,Sigma Labs,healthcare,187,Denver
+sf_acc_398,Aether Capital,SaaS,979,Seattle
+sf_acc_399,Elevate Dynamics,manufacturing,279,Portland
+sf_acc_400,Orion Data,healthcare,299,Phoenix
+sf_acc_401,Bastion Technologies,manufacturing,442,Phoenix
+sf_acc_402,Maverick Cloud,manufacturing,800,Atlanta
+sf_acc_403,Helix Industries,manufacturing,399,Seattle
+sf_acc_404,Vertex Systems,SaaS,220,Denver
+sf_acc_405,Relay Digital,cybersecurity,244,Minneapolis
+sf_acc_406,Citadel Security,SaaS,368,Minneapolis
+sf_acc_407,Argon Services,cybersecurity,55,Phoenix
+sf_acc_408,Radix Consulting,SaaS,369,Dallas
+sf_acc_409,Prism Health,cybersecurity,284,Washington DC
+sf_acc_410,Ardent Ventures,financial services,249,Minneapolis
+sf_acc_411,Yield Partners,cybersecurity,119,Atlanta
+sf_acc_412,Polaris Works,cybersecurity,4231,Austin
+sf_acc_413,Sterling Engineering,SaaS,167,Chicago
+sf_acc_414,Zenith Group,financial services,705,Seattle
+sf_acc_415,Paladin Intelligence,SaaS,520,Chicago
+sf_acc_416,Ascent Logistics,healthcare,12545,San Francisco
+sf_acc_417,Sable Solutions,financial services,655,Los Angeles
+sf_acc_418,Pinnacle Financial,SaaS,563,Minneapolis
+sf_acc_419,Opal Networks,financial services,134,Dallas
+sf_acc_420,Summit Innovations,manufacturing,13763,San Francisco
+sf_acc_421,Vector Corp,financial services,365,Minneapolis
+sf_acc_422,Beacon Software,manufacturing,1341,Boston
+sf_acc_423,Fortis Analytics,manufacturing,203,San Francisco
+sf_acc_424,Talon Enterprises,financial services,61,San Francisco
+sf_acc_425,Vigil Labs,cybersecurity,325,Los Angeles
+sf_acc_426,Terra Capital,SaaS,428,Atlanta
+sf_acc_427,Solace Dynamics,SaaS,199,Dallas
+sf_acc_428,Obsidian Data,financial services,112,Portland
+sf_acc_429,Volta Platforms,SaaS,142,Charlotte
+sf_acc_430,Ironbridge Engineering,financial services,1961,Dallas
+sf_acc_431,Trellis Group,manufacturing,143,Austin
+sf_acc_432,Optima Intelligence,healthcare,974,San Francisco
+sf_acc_433,Kinetic Logistics,healthcare,739,Dallas
+sf_acc_434,Halcyon Solutions,SaaS,3121,New York
+sf_acc_435,Riviera Financial,financial services,497,Charlotte
+sf_acc_436,Ionic Networks,healthcare,11821,Austin
+sf_acc_437,Atlas Innovations,manufacturing,851,New York
+sf_acc_438,Quantum Corp,financial services,66,Los Angeles
+sf_acc_439,Nebula Software,SaaS,879,New York
+sf_acc_440,Haven Analytics,SaaS,117,Washington DC
+sf_acc_441,Evergreen Enterprises,cybersecurity,3881,Charlotte
+sf_acc_442,Northstar Labs,healthcare,254,Chicago
+sf_acc_443,Unity Capital,cybersecurity,148,Denver
+sf_acc_444,Cipher Dynamics,cybersecurity,98,New York
+sf_acc_445,Cascade Data,financial services,565,Portland
+sf_acc_446,Vanguard Technologies,cybersecurity,182,Los Angeles
+sf_acc_447,Wren Cloud,cybersecurity,232,Chicago
+sf_acc_448,Caliber Industries,cybersecurity,277,Los Angeles
+sf_acc_449,Aegis Systems,manufacturing,355,Los Angeles
+sf_acc_450,Keystone Digital,healthcare,788,San Francisco
+sf_acc_451,Zephyr Services,healthcare,58,Los Angeles
+sf_acc_452,Equinox Automation,manufacturing,72,New York
+sf_acc_453,Paragon Consulting,cybersecurity,69,Denver
+sf_acc_454,Nova Health,manufacturing,2645,Washington DC
+sf_acc_455,Onyx Ventures,financial services,495,Los Angeles
+sf_acc_456,Fulcrum Partners,cybersecurity,635,Los Angeles
+sf_acc_457,Axiom Works,SaaS,438,Dallas
+sf_acc_458,Sentinel Platforms,healthcare,143,Boston
+sf_acc_459,Lumen Engineering,healthcare,92,Portland
+sf_acc_460,Crest Group,cybersecurity,1776,Seattle
+sf_acc_461,Xenon Intelligence,healthcare,13344,Chicago
+sf_acc_462,Nimbus Logistics,cybersecurity,615,Washington DC
+sf_acc_463,Drake Solutions,financial services,475,Minneapolis
+sf_acc_464,Ember Financial,financial services,925,Boston
+sf_acc_465,Veridian Networks,financial services,260,Chicago
+sf_acc_466,Ridgeline Corp,SaaS,333,Seattle
+sf_acc_467,Granite Software,healthcare,3150,Denver
+sf_acc_468,Juno Analytics,SaaS,798,Austin
+sf_acc_469,Cordova Enterprises,cybersecurity,496,Washington DC
+sf_acc_470,Radian Labs,financial services,3749,Washington DC
+sf_acc_471,Trident Capital,cybersecurity,990,Seattle
+sf_acc_472,Apex Dynamics,manufacturing,291,Atlanta
+sf_acc_473,Clearwater Data,healthcare,144,Boston
+sf_acc_474,Pike Technologies,financial services,149,Portland
+sf_acc_475,Quasar Cloud,financial services,376,Phoenix
+sf_acc_476,Neon Industries,cybersecurity,165,Portland
+sf_acc_477,Cobalt Systems,SaaS,218,New York
+sf_acc_478,Sigma Digital,manufacturing,69,San Francisco
+sf_acc_479,Aether Security,financial services,124,Atlanta
+sf_acc_480,Elevate Services,SaaS,912,Los Angeles
+sf_acc_481,Orion Automation,SaaS,185,Los Angeles
+sf_acc_482,Bastion Consulting,cybersecurity,577,New York
+sf_acc_483,Maverick Health,financial services,101,New York
+sf_acc_484,Helix Ventures,financial services,432,Dallas
+sf_acc_485,Vertex Partners,manufacturing,7412,Chicago
+sf_acc_486,Relay Works,healthcare,644,Dallas
+sf_acc_487,Citadel Platforms,manufacturing,3126,Seattle
+sf_acc_488,Argon Engineering,SaaS,468,Austin
+sf_acc_489,Flint Group,cybersecurity,402,Portland
+sf_acc_490,Radix Intelligence,SaaS,2117,Boston
+sf_acc_491,Prism Logistics,SaaS,488,Portland
+sf_acc_492,Ardent Solutions,cybersecurity,858,New York
+sf_acc_493,Yield Financial,SaaS,154,Portland
+sf_acc_494,Polaris Networks,SaaS,55,Chicago
+sf_acc_495,Lyric Innovations,SaaS,8938,Boston
+sf_acc_496,Sterling Corp,healthcare,73,Seattle
+sf_acc_497,Zenith Software,healthcare,95,Austin
+sf_acc_498,Paladin Analytics,cybersecurity,157,Atlanta
+sf_acc_499,Ascent Enterprises,cybersecurity,4325,Charlotte
+sf_acc_500,Sable Labs,manufacturing,2978,Dallas

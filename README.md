@@ -31,7 +31,20 @@ Signal ingests multi-source account signals (job changes, intent data, engagemen
       alert_thresholds.yaml  # Alert tier definitions
 
     data/
-      mock_signals.json  # Synthetic data (Phase 2)
+      synthetic/         # Copied from beacon-data/output/ — never generated here
+        signal_events.json      (~5987 signal events)
+        score_history.json      (~3017 weekly score snapshots)
+        tribal_patterns.json    (7 patterns)
+        account_preferences.json (25 snooze/override records)
+        alert_log.json          (~1394 alerts)
+        sf_accounts.csv         (500 accounts)
+        sf_contacts.csv         (~247 contacts)
+        sf_opportunities.csv    (~208 opportunities)
+        reps.json               (19 reps)
+
+    pipeline/
+      data_loader.py     # Loads all synthetic data, provides typed accessors
+      run_scoring.py     # End-to-end scoring demo — runs in demo mode
 
     migrations/
       001_signal_schema.sql  # Supabase schema
@@ -44,9 +57,23 @@ Signal ingests multi-source account signals (job changes, intent data, engagemen
     cp .env.example .env
     # Edit .env with your keys
 
+    # Copy synthetic data from beacon-data (if regenerating)
+    cp ../beacon-data/output/*.json data/synthetic/
+    cp ../beacon-data/output/*.csv data/synthetic/
+
+## Running the scoring engine (Phase 2)
+
+    python pipeline/run_scoring.py
+
+Outputs the top 10 accounts by score with signal breakdowns, decay factors,
+velocity bonuses, and tribal pattern matches. Runs entirely on synthetic data
+with no external dependencies.
+
 ## Demo Mode
 
-DEMO_MODE=true (default) loads synthetic data from data/. All adapters read from mock files. Schema is identical to production.
+DEMO_MODE=true (default) reads from data/synthetic/. All adapters go through
+DataLoader. Schema is identical to production — swapping in live adapters
+requires no changes to the scoring engine.
 
 ## Stack
 
@@ -60,7 +87,7 @@ DEMO_MODE=true (default) loads synthetic data from data/. All adapters read from
 ## Build Phases
 
 1. ✅ Skeleton — adapter interfaces, scoring engine, schema, config
-2. 🔲 Scoring engine + mock data
+2. ✅ Scoring engine + mock data — adapters wired to beacon-data synthetic signals, end-to-end scoring working
 3. 🔲 LLM layer + MCP server
 4. 🔲 Alert delivery (Slack)
 5. 🔲 Dashboard (Next.js)

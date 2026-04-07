@@ -1,0 +1,227 @@
+[
+  {
+    "id": "ap_001",
+    "rep_id": "ae_3",
+    "account_id": "sf_acc_073",
+    "preference_type": "snooze",
+    "reason": "Champion on leave \u2014 wait for return",
+    "created_date": "2025-06-15",
+    "expires_date": "2025-07-28"
+  },
+  {
+    "id": "ap_002",
+    "rep_id": "ae_3",
+    "account_id": "sf_acc_086",
+    "preference_type": "snooze",
+    "reason": "In active renewal \u2014 do not outbound",
+    "created_date": "2025-08-14",
+    "expires_date": "2025-10-03"
+  },
+  {
+    "id": "ap_003",
+    "rep_id": "ae_3",
+    "account_id": "sf_acc_064",
+    "preference_type": "snooze",
+    "reason": "Budget freeze communicated \u2014 revisit next quarter",
+    "created_date": "2025-09-15",
+    "expires_date": "2025-11-07"
+  },
+  {
+    "id": "ap_004",
+    "rep_id": "sdr_2",
+    "account_id": "sf_acc_010",
+    "preference_type": "snooze",
+    "reason": "Contract negotiation in progress \u2014 no cold outreach",
+    "created_date": "2025-10-22",
+    "expires_date": "2025-12-04"
+  },
+  {
+    "id": "ap_005",
+    "rep_id": "ae_9",
+    "account_id": "sf_acc_041",
+    "preference_type": "snooze",
+    "reason": "Duplicate account \u2014 use primary record instead",
+    "created_date": "2025-09-18",
+    "expires_date": "2025-11-19"
+  },
+  {
+    "id": "ap_006",
+    "rep_id": "ae_1",
+    "account_id": "sf_acc_096",
+    "preference_type": "snooze",
+    "reason": "Recently churned \u2014 cooling off period",
+    "created_date": "2025-08-22",
+    "expires_date": "2025-09-30"
+  },
+  {
+    "id": "ap_007",
+    "rep_id": "ae_2",
+    "account_id": "sf_acc_008",
+    "preference_type": "snooze",
+    "reason": "Account in legal review \u2014 pause all outreach",
+    "created_date": "2025-07-16",
+    "expires_date": "2025-08-31"
+  },
+  {
+    "id": "ap_008",
+    "rep_id": "ae_10",
+    "account_id": "sf_acc_063",
+    "preference_type": "snooze",
+    "reason": "Under NDA discussion \u2014 restrict communications",
+    "created_date": "2025-10-21",
+    "expires_date": "2025-12-23"
+  },
+  {
+    "id": "ap_009",
+    "rep_id": "sdr_2",
+    "account_id": "sf_acc_002",
+    "preference_type": "score_override",
+    "reason": "Competitor displacement in progress \u2014 manual priority boost",
+    "created_date": "2025-12-14",
+    "expires_date": "2026-01-12"
+  },
+  {
+    "id": "ap_010",
+    "rep_id": "sdr_6",
+    "account_id": "sf_acc_085",
+    "preference_type": "snooze",
+    "reason": "In active renewal \u2014 do not outbound",
+    "created_date": "2025-11-02",
+    "expires_date": "2025-12-19"
+  },
+  {
+    "id": "ap_011",
+    "rep_id": "ae_3",
+    "account_id": "sf_acc_088",
+    "preference_type": "snooze",
+    "reason": "Account in legal review \u2014 pause all outreach",
+    "created_date": "2025-12-12",
+    "expires_date": "2026-03-01"
+  },
+  {
+    "id": "ap_012",
+    "rep_id": "ae_1",
+    "account_id": "sf_acc_007",
+    "preference_type": "snooze",
+    "reason": "Account in legal review \u2014 pause all outreach",
+    "created_date": "2025-10-13",
+    "expires_date": "2025-12-03"
+  },
+  {
+    "id": "ap_013",
+    "rep_id": "sdr_3",
+    "account_id": "sf_acc_062",
+    "preference_type": "snooze",
+    "reason": "Budget freeze communicated \u2014 revisit next quarter",
+    "created_date": "2025-12-09",
+    "expires_date": "2026-02-27"
+  },
+  {
+    "id": "ap_014",
+    "rep_id": "ae_9",
+    "account_id": "sf_acc_037",
+    "preference_type": "snooze",
+    "reason": "Under NDA discussion \u2014 restrict communications",
+    "created_date": "2025-09-15",
+    "expires_date": "2025-11-24"
+  },
+  {
+    "id": "ap_015",
+    "rep_id": "ae_1",
+    "account_id": "sf_acc_075",
+    "preference_type": "snooze",
+    "reason": "Duplicate account \u2014 use primary record instead",
+    "created_date": "2025-10-23",
+    "expires_date": "2025-11-27"
+  },
+  {
+    "id": "ap_016",
+    "rep_id": "ae_4",
+    "account_id": "sf_acc_013",
+    "preference_type": "snooze",
+    "reason": "Duplicate account \u2014 use primary record instead",
+    "created_date": "2025-10-06",
+    "expires_date": "2025-12-11"
+  },
+  {
+    "id": "ap_017",
+    "rep_id": "ae_3",
+    "account_id": "sf_acc_079",
+    "preference_type": "snooze",
+    "reason": "In active renewal \u2014 do not outbound",
+    "created_date": "2025-07-16",
+    "expires_date": "2025-09-18"
+  },
+  {
+    "id": "ap_018",
+    "rep_id": "sdr_2",
+    "account_id": "sf_acc_084",
+    "preference_type": "snooze",
+    "reason": "Customer success managing relationship \u2014 no sales outreach",
+    "created_date": "2025-08-13",
+    "expires_date": "2025-09-29"
+  },
+  {
+    "id": "ap_019",
+    "rep_id": "ae_2",
+    "account_id": "sf_acc_030",
+    "preference_type": "score_override",
+    "reason": "Competitor displacement in progress \u2014 manual priority boost",
+    "created_date": "2025-11-11",
+    "expires_date": "2025-12-22"
+  },
+  {
+    "id": "ap_020",
+    "rep_id": "ae_9",
+    "account_id": "sf_acc_034",
+    "preference_type": "snooze",
+    "reason": "Under NDA discussion \u2014 restrict communications",
+    "created_date": "2026-01-16",
+    "expires_date": "2026-03-13"
+  },
+  {
+    "id": "ap_021",
+    "rep_id": "ae_4",
+    "account_id": "sf_acc_006",
+    "preference_type": "score_override",
+    "reason": "Strategic account \u2014 maintain high visibility regardless of score",
+    "created_date": "2025-10-27",
+    "expires_date": "2025-11-16"
+  },
+  {
+    "id": "ap_022",
+    "rep_id": "ae_2",
+    "account_id": "sf_acc_040",
+    "preference_type": "snooze",
+    "reason": "Active support escalation \u2014 hold outbound",
+    "created_date": "2025-12-03",
+    "expires_date": "2026-01-13"
+  },
+  {
+    "id": "ap_023",
+    "rep_id": "sdr_2",
+    "account_id": "sf_acc_078",
+    "preference_type": "snooze",
+    "reason": "Recently churned \u2014 cooling off period",
+    "created_date": "2025-08-20",
+    "expires_date": "2025-09-29"
+  },
+  {
+    "id": "ap_024",
+    "rep_id": "ae_4",
+    "account_id": "sf_acc_028",
+    "preference_type": "snooze",
+    "reason": "Contract negotiation in progress \u2014 no cold outreach",
+    "created_date": "2025-09-26",
+    "expires_date": "2025-12-18"
+  },
+  {
+    "id": "ap_025",
+    "rep_id": "ae_3",
+    "account_id": "sf_acc_015",
+    "preference_type": "snooze",
+    "reason": "In active renewal \u2014 do not outbound",
+    "created_date": "2025-09-17",
+    "expires_date": "2025-11-13"
+  }
+]

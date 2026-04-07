@@ -1,0 +1,192 @@
+[
+  {
+    "id": "sdr_1",
+    "name": "Marcus Webb",
+    "email": "marcus.webb@doom.com",
+    "role": "SDR",
+    "segment": "All",
+    "manager_id": "mgr_1",
+    "hired_date": "2024-06-15",
+    "narrative_arc": "plateau_rep"
+  },
+  {
+    "id": "sdr_2",
+    "name": "Priya Nair",
+    "email": "priya.nair@doom.com",
+    "role": "SDR",
+    "segment": "All",
+    "manager_id": "mgr_1",
+    "hired_date": "2024-08-01",
+    "narrative_arc": "top_performer_ramp"
+  },
+  {
+    "id": "sdr_3",
+    "name": "Jordan Chase",
+    "email": "jordan.chase@doom.com",
+    "role": "SDR",
+    "segment": "All",
+    "manager_id": "mgr_1",
+    "hired_date": "2024-07-10",
+    "narrative_arc": "rewrite_adopter"
+  },
+  {
+    "id": "sdr_4",
+    "name": "Samantha Reyes",
+    "email": "samantha.reyes@doom.com",
+    "role": "SDR",
+    "segment": "All",
+    "manager_id": "mgr_1",
+    "hired_date": "2024-05-20",
+    "narrative_arc": "pip_recovery"
+  },
+  {
+    "id": "sdr_5",
+    "name": "Tyler Brooks",
+    "email": "tyler.brooks@doom.com",
+    "role": "SDR",
+    "segment": "All",
+    "manager_id": "mgr_1",
+    "hired_date": "2024-09-01",
+    "narrative_arc": "steady_performer"
+  },
+  {
+    "id": "sdr_6",
+    "name": "Aisha Okonkwo",
+    "email": "aisha.okonkwo@doom.com",
+    "role": "SDR",
+    "segment": "All",
+    "manager_id": "mgr_1",
+    "hired_date": "2025-09-08",
+    "narrative_arc": "new_hire_ramp"
+  },
+  {
+    "id": "ae_1",
+    "name": "David Kowalski",
+    "email": "david.kowalski@doom.com",
+    "role": "AE",
+    "segment": "SMB",
+    "manager_id": "mgr_2",
+    "hired_date": "2024-03-15",
+    "narrative_arc": "multi_threader"
+  },
+  {
+    "id": "ae_2",
+    "name": "Elena Vasquez",
+    "email": "elena.vasquez@doom.com",
+    "role": "AE",
+    "segment": "SMB",
+    "manager_id": "mgr_2",
+    "hired_date": "2024-06-01",
+    "narrative_arc": "sandbagging_forecaster"
+  },
+  {
+    "id": "ae_3",
+    "name": "Ryan Obi",
+    "email": "ryan.obi@doom.com",
+    "role": "AE",
+    "segment": "SMB",
+    "manager_id": "mgr_2",
+    "hired_date": "2024-04-20",
+    "narrative_arc": "steady_performer"
+  },
+  {
+    "id": "ae_4",
+    "name": "Hannah Liu",
+    "email": "hannah.liu@doom.com",
+    "role": "AE",
+    "segment": "SMB",
+    "manager_id": "mgr_2",
+    "hired_date": "2024-07-15",
+    "narrative_arc": "steady_performer"
+  },
+  {
+    "id": "ae_5",
+    "name": "Nate Johansson",
+    "email": "nate.johansson@doom.com",
+    "role": "AE",
+    "segment": "MM",
+    "manager_id": "mgr_2",
+    "hired_date": "2024-05-10",
+    "narrative_arc": "deal_stalls_dies"
+  },
+  {
+    "id": "ae_6",
+    "name": "Keiko Tanaka",
+    "email": "keiko.tanaka@doom.com",
+    "role": "AE",
+    "segment": "MM",
+    "manager_id": "mgr_2",
+    "hired_date": "2024-08-20",
+    "narrative_arc": "competitive_displacement"
+  },
+  {
+    "id": "ae_7",
+    "name": "Marcus Adeyemi",
+    "email": "marcus.adeyemi@doom.com",
+    "role": "AE",
+    "segment": "ENT",
+    "manager_id": "mgr_3",
+    "hired_date": "2024-02-01",
+    "narrative_arc": "cross_segment_divergence"
+  },
+  {
+    "id": "ae_8",
+    "name": "Laura Chen",
+    "email": "laura.chen@doom.com",
+    "role": "AE",
+    "segment": "ENT",
+    "manager_id": "mgr_3",
+    "hired_date": "2024-04-15",
+    "narrative_arc": "pipeline_lifecycle"
+  },
+  {
+    "id": "ae_9",
+    "name": "Daniel Osei",
+    "email": "daniel.osei@doom.com",
+    "role": "AE",
+    "segment": "STRAT",
+    "manager_id": "mgr_3",
+    "hired_date": "2024-01-10",
+    "narrative_arc": "multi_threaded_close"
+  },
+  {
+    "id": "ae_10",
+    "name": "Sofia Petrov",
+    "email": "sofia.petrov@doom.com",
+    "role": "AE",
+    "segment": "STRAT",
+    "manager_id": "mgr_3",
+    "hired_date": "2024-06-20",
+    "narrative_arc": "steady_performer"
+  },
+  {
+    "id": "mgr_1",
+    "name": "Christine Park",
+    "email": "christine.park@doom.com",
+    "role": "Manager",
+    "segment": "All",
+    "manager_id": null,
+    "hired_date": "2023-11-01",
+    "narrative_arc": null
+  },
+  {
+    "id": "mgr_2",
+    "name": "James Holloway",
+    "email": "james.holloway@doom.com",
+    "role": "Manager",
+    "segment": "SMB",
+    "manager_id": null,
+    "hired_date": "2023-09-15",
+    "narrative_arc": null
+  },
+  {
+    "id": "mgr_3",
+    "name": "Amara Okafor",
+    "email": "amara.okafor@doom.com",
+    "role": "Manager",
+    "segment": "ENT",
+    "manager_id": null,
+    "hired_date": "2023-10-01",
+    "narrative_arc": null
+  }
+]

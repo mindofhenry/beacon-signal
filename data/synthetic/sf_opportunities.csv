@@ -1,0 +1,209 @@
+Id,Name,AccountId,StageName,Amount,CloseDate,LeadSource,OwnerId
+sf_opp_001,CipherGuard Inc --Enterprise Security Suite,sf_acc_022,Negotiation,80000,2026-01-26,VP Eng -- Developer Security Cold,ae_1
+sf_opp_002,Redrock Financial --Cloud Posture Starter,sf_acc_014,Negotiation,45000,2025-12-12,CISO -- Threat Detection ROI,ae_1
+sf_opp_003,Summit Bank & Trust --DevSecOps Platform,sf_acc_008,Negotiation,35000,2026-02-20,IT Director -- Compliance Renewal,ae_1
+sf_opp_004,Pinnacle Manufacturing Co --Threat Detection Module,sf_acc_011,Closed Won,70000,2025-11-04,CISO Outbound -- Q2 Pipeline Push,ae_5
+sf_opp_005,BluePeak Systems --Compliance Automation,sf_acc_016,Negotiation,65000,2025-08-28,CISO Outbound -- Q2 Pipeline Push,ae_5
+sf_opp_006,Kestrel Defense Systems --Endpoint Protection,sf_acc_010,Negotiation,145000,2026-03-01,IT Director -- Compliance Renewal,ae_6
+sf_opp_007,Nexus SaaS Labs --Security Posture Assessment,sf_acc_005,Negotiation,120000,2025-11-12,CISO -- Threat Detection ROI,ae_6
+sf_opp_008,Harbor Capital Group --Vulnerability Management,sf_acc_018,Closed Lost,105000,2025-12-02,CISO Outbound -- Q2 Pipeline Push,ae_6
+sf_opp_009,Titan Cloud Corp --Zero Trust Rollout,sf_acc_025,Closed Won,145000,2025-10-26,CISO Outbound -- Q2 Pipeline Push,ae_6
+sf_opp_010,Titan Cloud Corp --API Security Gateway,sf_acc_025,Negotiation,25000,2025-11-28,VP Marketing -- Pipeline Attribution,ae_3
+sf_opp_011,WestPoint Healthcare --SIEM Integration,sf_acc_024,Closed Won,30000,2026-03-07,IT Director -- Compliance Renewal,ae_3
+sf_opp_012,WestPoint Healthcare --Identity Governance,sf_acc_024,Closed Won,20000,2025-07-18,CISO Outbound -- Q2 Pipeline Push,ae_3
+sf_opp_013,Nexus SaaS Labs --Incident Response Retainer,sf_acc_005,Negotiation,275000,2026-02-12,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_014,Fortress Security Corp --Pen Test Engagement,sf_acc_001,Negotiation,115000,2025-10-03,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_015,Summit Bank & Trust --Risk Dashboard,sf_acc_008,Closed Lost,195000,2025-06-25,CTO Sequence -- Post-Funding Outreach,ae_7
+sf_opp_016,Cloudix Corp --Container Security,sf_acc_012,Closed Lost,120000,2026-01-26,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_017,Harbor Capital Group --Data Loss Prevention,sf_acc_018,Negotiation,490000,2026-03-27,Security Engineer -- Inbound Follow-Up,ae_9
+sf_opp_018,Ironclad Defense --Cloud Workload Protection,sf_acc_017,Qualification,220000,2026-07-18,IT Director -- Patch Cycle Acceleration,ae_9
+sf_opp_019,Stackify Inc --Security Awareness Training,sf_acc_009,Prospecting,485000,2026-08-30,Security Engineer -- Inbound Follow-Up,ae_9
+sf_opp_020,Summit Bank & Trust --Managed Detection & Response,sf_acc_008,Proposal/Price Quote,360000,2026-05-19,CISO -- Threat Detection ROI,ae_9
+sf_opp_021,IronShield Technologies --Enterprise Platform Expansion,sf_acc_002,Closed Lost,180000,2026-01-15,CISO Outbound -- Q2 Pipeline Push,ae_5
+sf_opp_022,Cloudix Corp --SOC-as-a-Service,sf_acc_012,Closed Won,40000,2025-09-19,CISO Outbound -- Q2 Pipeline Push,ae_1
+sf_opp_023,BluePeak Systems --Privileged Access Management,sf_acc_016,Closed Won,75000,2025-07-07,CISO Outbound -- Q2 Pipeline Push,ae_1
+sf_opp_024,Quickscale Technologies --Network Segmentation,sf_acc_020,Closed Won,65000,2025-08-12,CISO Outbound -- Q2 Pipeline Push,ae_1
+sf_opp_025,Meridian Financial Group --Enterprise Security Transformation,sf_acc_003,Closed Won,350000,2025-11-20,CISO Outbound -- Q2 Pipeline Push,ae_9
+sf_opp_026,Apex Health Systems --Security Posture Assessment,sf_acc_004,Closed Won,95000,2025-09-15,Partner Referral,ae_6
+sf_opp_027,Nexus SaaS Labs --Threat Detection Module,sf_acc_005,Closed Lost,110000,2025-10-20,Web,ae_6
+sf_opp_028,Cloudix Corp --Threat Intelligence Feed,sf_acc_012,Closed Won,20000,2025-06-22,Web,ae_2
+sf_opp_029,BluePeak Systems --Security Operations Center,sf_acc_016,Closed Won,50000,2025-08-09,Web,ae_2
+sf_opp_030,Quickscale Technologies --Enterprise Security Suite,sf_acc_020,Closed Won,55000,2025-09-02,Web,ae_2
+sf_opp_031,CipherGuard Inc --Cloud Posture Starter,sf_acc_022,Closed Won,40000,2025-10-28,Web,ae_2
+sf_opp_032,Cloudix Corp --DevSecOps Platform,sf_acc_012,Closed Won,15000,2025-11-28,Web,ae_2
+sf_opp_033,BluePeak Systems --Threat Detection Module,sf_acc_016,Closed Won,50000,2026-01-06,Event,ae_2
+sf_opp_034,Quickscale Technologies --Compliance Automation,sf_acc_020,Closed Won,55000,2026-02-24,Partner Referral,ae_2
+sf_opp_035,CipherGuard Inc --Endpoint Protection,sf_acc_022,Negotiation,50000,2026-04-01,Inbound,ae_2
+sf_opp_036,Fortress Security Corp --Security Posture Assessment,sf_acc_001,Negotiation,270000,2025-10-17,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_037,Harbor Capital Group --Vulnerability Management,sf_acc_018,Negotiation,110000,2026-04-20,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_038,Steelman Industries --Zero Trust Rollout,sf_acc_021,Negotiation,180000,2025-11-02,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_039,Fortress Security Corp --API Security Gateway,sf_acc_001,Negotiation,275000,2026-08-16,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_040,Harbor Capital Group --SIEM Integration,sf_acc_018,Negotiation,260000,2026-04-28,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_041,Steelman Industries --Identity Governance,sf_acc_021,Negotiation,110000,2025-11-07,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_042,Fortress Security Corp --Incident Response Retainer,sf_acc_001,Closed Lost,220000,2025-10-10,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_043,Harbor Capital Group --Pen Test Engagement,sf_acc_018,Closed Won,255000,2025-09-20,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_044,Steelman Industries --Risk Dashboard,sf_acc_021,Negotiation,225000,2026-03-28,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_045,Fortress Security Corp --Container Security,sf_acc_001,Negotiation,190000,2026-04-08,CISO Outbound -- Q2 Pipeline Push,ae_7
+sf_opp_046,Fortress Security Corp --Data Loss Prevention,sf_acc_001,Negotiation,180000,2026-06-15,Event,ae_8
+sf_opp_047,Harbor Capital Group --Cloud Workload Protection,sf_acc_018,Negotiation,240000,2026-05-16,Web,ae_8
+sf_opp_048,Steelman Industries --Security Awareness Training,sf_acc_021,Negotiation,190000,2025-12-31,Partner Referral,ae_8
+sf_opp_049,Fortress Security Corp --Managed Detection & Response,sf_acc_001,Negotiation,275000,2026-08-21,Inbound,ae_8
+sf_opp_050,Harbor Capital Group --SOC-as-a-Service,sf_acc_018,Negotiation,205000,2025-10-24,Event,ae_8
+sf_opp_051,Steelman Industries --Privileged Access Management,sf_acc_021,Negotiation,290000,2026-07-05,Inbound,ae_8
+sf_opp_052,Fortress Security Corp --Network Segmentation,sf_acc_001,Closed Won,235000,2025-11-08,Web,ae_8
+sf_opp_053,Harbor Capital Group --Threat Intelligence Feed,sf_acc_018,Closed Lost,175000,2025-07-02,Partner Referral,ae_8
+sf_opp_054,Steelman Industries --Security Operations Center,sf_acc_021,Negotiation,170000,2026-06-03,Inbound,ae_8
+sf_opp_055,Fortress Security Corp --Enterprise Security Suite,sf_acc_001,Closed Won,170000,2025-10-18,Web,ae_8
+sf_opp_056,Cloudix Corp --Cloud Posture Starter,sf_acc_012,Prospecting,60000,2026-05-15,Security Engineer -- Inbound Follow-Up,ae_1
+sf_opp_057,BluePeak Systems --DevSecOps Platform,sf_acc_016,Proposal/Price Quote,25000,2026-04-17,IT Director -- Patch Cycle Acceleration,ae_1
+sf_opp_058,Quickscale Technologies --Threat Detection Module,sf_acc_020,Closed Won,40000,2025-12-25,CTO Sequence -- Post-Funding Outreach,ae_1
+sf_opp_059,CipherGuard Inc --Compliance Automation,sf_acc_022,Qualification,80000,2026-04-30,CISO -- Threat Detection ROI,ae_1
+sf_opp_060,Cloudix Corp --Endpoint Protection,sf_acc_012,Qualification,65000,2026-05-09,VP Marketing -- Brand Risk Outbound,ae_1
+sf_opp_061,BluePeak Systems --Security Posture Assessment,sf_acc_016,Closed Won,40000,2025-07-05,VP Eng -- Developer Security Cold,ae_1
+sf_opp_062,Quickscale Technologies --Vulnerability Management,sf_acc_020,Prospecting,30000,2026-05-02,CFO -- Budget Freeze Outbound,ae_1
+sf_opp_063,CipherGuard Inc --Zero Trust Rollout,sf_acc_022,Qualification,40000,2026-05-16,VP Marketing -- Pipeline Attribution,ae_1
+sf_opp_064,Cloudix Corp --API Security Gateway,sf_acc_012,Proposal/Price Quote,60000,2026-04-15,IT Director -- Cloud Security Posture,ae_1
+sf_opp_065,BluePeak Systems --SIEM Integration,sf_acc_016,Qualification,25000,2026-05-06,IT Director -- Patch Cycle Acceleration,ae_1
+sf_opp_066,Quickscale Technologies --Identity Governance,sf_acc_020,Prospecting,80000,2026-05-06,CISO Outbound -- Q2 Pipeline Push,ae_1
+sf_opp_067,CipherGuard Inc --Incident Response Retainer,sf_acc_022,Needs Analysis,70000,2026-04-18,Security Engineer -- Inbound Follow-Up,ae_1
+sf_opp_068,Cloudix Corp --Pen Test Engagement,sf_acc_012,Proposal/Price Quote,75000,2026-04-10,CTO Sequence -- Post-Funding Outreach,ae_1
+sf_opp_069,BluePeak Systems --Risk Dashboard,sf_acc_016,Qualification,50000,2026-05-04,Security Engineer -- Inbound Follow-Up,ae_1
+sf_opp_070,Quickscale Technologies --Container Security,sf_acc_020,Closed Lost,80000,2025-06-29,IT Director -- Compliance Renewal,ae_1
+sf_opp_071,CipherGuard Inc --Data Loss Prevention,sf_acc_022,Qualification,35000,2026-04-26,VP Eng -- Developer Security Cold,ae_1
+sf_opp_072,Cloudix Corp --Cloud Workload Protection,sf_acc_012,Closed Lost,45000,2025-07-11,VP Marketing -- Pipeline Attribution,ae_3
+sf_opp_073,BluePeak Systems --Security Awareness Training,sf_acc_016,Closed Lost,40000,2025-11-26,VP Marketing -- Brand Risk Outbound,ae_3
+sf_opp_074,Quickscale Technologies --Managed Detection & Response,sf_acc_020,Needs Analysis,80000,2026-04-29,IT Director -- Compliance Renewal,ae_3
+sf_opp_075,CipherGuard Inc --SOC-as-a-Service,sf_acc_022,Needs Analysis,35000,2026-04-15,IT Director -- Cloud Security Posture,ae_3
+sf_opp_076,Cloudix Corp --Privileged Access Management,sf_acc_012,Needs Analysis,80000,2026-04-22,CISO -- Threat Detection ROI,ae_3
+sf_opp_077,BluePeak Systems --Network Segmentation,sf_acc_016,Negotiation,50000,2026-04-01,IT Director -- Cloud Security Posture,ae_3
+sf_opp_078,Quickscale Technologies --Threat Intelligence Feed,sf_acc_020,Proposal/Price Quote,75000,2026-04-20,IT Director -- Compliance Renewal,ae_3
+sf_opp_079,CipherGuard Inc --Security Operations Center,sf_acc_022,Prospecting,45000,2026-05-04,IT Director -- Cloud Security Posture,ae_3
+sf_opp_080,Cloudix Corp --Enterprise Security Suite,sf_acc_012,Proposal/Price Quote,15000,2026-04-15,CFO -- Budget Freeze Outbound,ae_3
+sf_opp_081,BluePeak Systems --Cloud Posture Starter,sf_acc_016,Closed Won,75000,2025-06-06,IT Director -- Cloud Security Posture,ae_3
+sf_opp_082,Quickscale Technologies --DevSecOps Platform,sf_acc_020,Prospecting,15000,2026-05-09,IT Director -- Compliance Renewal,ae_3
+sf_opp_083,CipherGuard Inc --Threat Detection Module,sf_acc_022,Needs Analysis,15000,2026-04-19,IT Director -- Patch Cycle Acceleration,ae_3
+sf_opp_084,Cloudix Corp --Compliance Automation,sf_acc_012,Prospecting,65000,2026-05-04,VP Eng -- Developer Security Cold,ae_3
+sf_opp_085,BluePeak Systems --Endpoint Protection,sf_acc_016,Qualification,60000,2026-05-05,CISO -- Board Risk Reporting,ae_3
+sf_opp_086,Quickscale Technologies --Security Posture Assessment,sf_acc_020,Qualification,55000,2026-05-06,CFO -- Budget Freeze Outbound,ae_3
+sf_opp_087,CipherGuard Inc --Vulnerability Management,sf_acc_022,Needs Analysis,30000,2026-04-23,CISO -- Board Risk Reporting,ae_3
+sf_opp_088,Cloudix Corp --Zero Trust Rollout,sf_acc_012,Prospecting,65000,2026-05-09,CFO -- Security ROI Framework,ae_3
+sf_opp_089,BluePeak Systems --API Security Gateway,sf_acc_016,Closed Lost,15000,2025-06-19,IT Director -- Patch Cycle Acceleration,ae_3
+sf_opp_090,Quickscale Technologies --SIEM Integration,sf_acc_020,Negotiation,65000,2026-04-01,IT Director -- Cloud Security Posture,ae_3
+sf_opp_091,Cloudix Corp --Identity Governance,sf_acc_012,Proposal/Price Quote,65000,2026-04-10,Web,ae_4
+sf_opp_092,BluePeak Systems --Incident Response Retainer,sf_acc_016,Closed Won,65000,2025-12-29,Event,ae_4
+sf_opp_093,Quickscale Technologies --Pen Test Engagement,sf_acc_020,Negotiation,75000,2026-04-02,Event,ae_4
+sf_opp_094,CipherGuard Inc --Risk Dashboard,sf_acc_022,Qualification,30000,2026-04-30,Web,ae_4
+sf_opp_095,Cloudix Corp --Container Security,sf_acc_012,Negotiation,60000,2026-04-05,Partner Referral,ae_4
+sf_opp_096,BluePeak Systems --Data Loss Prevention,sf_acc_016,Needs Analysis,70000,2026-04-17,Event,ae_4
+sf_opp_097,Quickscale Technologies --Cloud Workload Protection,sf_acc_020,Qualification,20000,2026-04-26,Partner Referral,ae_4
+sf_opp_098,CipherGuard Inc --Security Awareness Training,sf_acc_022,Qualification,15000,2026-04-24,Partner Referral,ae_4
+sf_opp_099,Cloudix Corp --Managed Detection & Response,sf_acc_012,Needs Analysis,15000,2026-04-24,Event,ae_4
+sf_opp_100,BluePeak Systems --SOC-as-a-Service,sf_acc_016,Prospecting,50000,2026-05-17,Inbound,ae_4
+sf_opp_101,Quickscale Technologies --Privileged Access Management,sf_acc_020,Closed Won,20000,2025-12-17,Web,ae_4
+sf_opp_102,CipherGuard Inc --Network Segmentation,sf_acc_022,Qualification,25000,2026-05-09,Inbound,ae_4
+sf_opp_103,Cloudix Corp --Threat Intelligence Feed,sf_acc_012,Proposal/Price Quote,80000,2026-04-08,Partner Referral,ae_4
+sf_opp_104,BluePeak Systems --Security Operations Center,sf_acc_016,Closed Won,60000,2025-07-27,Partner Referral,ae_4
+sf_opp_105,Quickscale Technologies --Enterprise Security Suite,sf_acc_020,Needs Analysis,40000,2026-04-29,Web,ae_4
+sf_opp_106,CipherGuard Inc --Cloud Posture Starter,sf_acc_022,Closed Lost,50000,2025-08-10,Web,ae_4
+sf_opp_107,Cloudix Corp --DevSecOps Platform,sf_acc_012,Proposal/Price Quote,65000,2026-04-13,Event,ae_4
+sf_opp_108,BluePeak Systems --Threat Detection Module,sf_acc_016,Prospecting,65000,2026-05-08,Event,ae_4
+sf_opp_109,Quickscale Technologies --Compliance Automation,sf_acc_020,Negotiation,65000,2026-04-08,Web,ae_4
+sf_opp_110,CipherGuard Inc --Endpoint Protection,sf_acc_022,Proposal/Price Quote,55000,2026-04-24,Event,ae_4
+sf_opp_111,Cloudix Corp --Security Posture Assessment,sf_acc_012,Proposal/Price Quote,25000,2026-04-12,Web,ae_4
+sf_opp_112,BluePeak Systems --Vulnerability Management,sf_acc_016,Prospecting,80000,2026-05-08,Event,ae_4
+sf_opp_113,Quickscale Technologies --Zero Trust Rollout,sf_acc_020,Needs Analysis,20000,2026-04-18,Event,ae_4
+sf_opp_114,CipherGuard Inc --API Security Gateway,sf_acc_022,Closed Lost,40000,2025-10-13,Inbound,ae_4
+sf_opp_115,IronShield Technologies --SIEM Integration,sf_acc_002,Qualification,120000,2026-05-15,IT Director -- Patch Cycle Acceleration,ae_5
+sf_opp_116,Apex Health Systems --Identity Governance,sf_acc_004,Negotiation,110000,2026-04-16,VP Eng -- Developer Security Cold,ae_5
+sf_opp_117,Nexus SaaS Labs --Incident Response Retainer,sf_acc_005,Needs Analysis,55000,2026-05-16,CISO -- Threat Detection ROI,ae_5
+sf_opp_118,ClearPath Health --Pen Test Engagement,sf_acc_007,Prospecting,100000,2026-06-02,CFO -- Budget Freeze Outbound,ae_5
+sf_opp_119,Summit Bank & Trust --Risk Dashboard,sf_acc_008,Negotiation,60000,2026-04-06,CTO Sequence -- Post-Funding Outreach,ae_5
+sf_opp_120,Stackify Inc --Container Security,sf_acc_009,Proposal/Price Quote,90000,2026-04-23,CISO -- Threat Detection ROI,ae_5
+sf_opp_121,Kestrel Defense Systems --Data Loss Prevention,sf_acc_010,Needs Analysis,110000,2026-04-29,VP Marketing -- Brand Risk Outbound,ae_5
+sf_opp_122,Vantage Security Group --Cloud Workload Protection,sf_acc_013,Closed Lost,105000,2025-06-30,IT Director -- Patch Cycle Acceleration,ae_5
+sf_opp_123,Redrock Financial --Security Awareness Training,sf_acc_014,Needs Analysis,70000,2026-05-05,IT Director -- Cloud Security Posture,ae_5
+sf_opp_124,Medcore Solutions --Managed Detection & Response,sf_acc_015,Closed Lost,135000,2025-06-20,CFO -- Budget Freeze Outbound,ae_5
+sf_opp_125,Ironclad Defense --SOC-as-a-Service,sf_acc_017,Needs Analysis,130000,2026-05-25,CISO -- Board Risk Reporting,ae_5
+sf_opp_126,NovaMed Health --Privileged Access Management,sf_acc_019,Closed Lost,90000,2025-07-13,VP Marketing -- Brand Risk Outbound,ae_5
+sf_opp_127,Atlas Financial Services --Network Segmentation,sf_acc_023,Closed Won,130000,2026-03-03,VP Marketing -- Pipeline Attribution,ae_5
+sf_opp_128,WestPoint Healthcare --Threat Intelligence Feed,sf_acc_024,Needs Analysis,70000,2026-05-12,CFO -- Budget Freeze Outbound,ae_5
+sf_opp_129,Titan Cloud Corp --Security Operations Center,sf_acc_025,Qualification,125000,2026-05-15,IT Director -- Compliance Renewal,ae_5
+sf_opp_130,IronShield Technologies --Enterprise Security Suite,sf_acc_002,Negotiation,150000,2026-04-12,CISO -- Threat Detection ROI,ae_5
+sf_opp_131,IronShield Technologies --Cloud Posture Starter,sf_acc_002,Proposal/Price Quote,150000,2026-04-29,IT Director -- Cloud Security Posture,ae_6
+sf_opp_132,Apex Health Systems --DevSecOps Platform,sf_acc_004,Prospecting,55000,2026-06-12,IT Director -- Compliance Renewal,ae_6
+sf_opp_133,Nexus SaaS Labs --Threat Detection Module,sf_acc_005,Proposal/Price Quote,65000,2026-05-04,CFO -- Budget Freeze Outbound,ae_6
+sf_opp_134,ClearPath Health --Compliance Automation,sf_acc_007,Qualification,55000,2026-05-18,CFO -- Budget Freeze Outbound,ae_6
+sf_opp_135,Summit Bank & Trust --Endpoint Protection,sf_acc_008,Negotiation,120000,2026-04-11,CTO Sequence -- Post-Funding Outreach,ae_6
+sf_opp_136,Stackify Inc --Security Posture Assessment,sf_acc_009,Qualification,125000,2026-05-29,CISO -- Board Risk Reporting,ae_6
+sf_opp_137,Kestrel Defense Systems --Vulnerability Management,sf_acc_010,Needs Analysis,110000,2026-05-13,CISO -- Board Risk Reporting,ae_6
+sf_opp_138,Vantage Security Group --Zero Trust Rollout,sf_acc_013,Needs Analysis,135000,2026-05-12,IT Director -- Cloud Security Posture,ae_6
+sf_opp_139,Redrock Financial --API Security Gateway,sf_acc_014,Qualification,90000,2026-05-14,CFO -- Security ROI Framework,ae_6
+sf_opp_140,Medcore Solutions --SIEM Integration,sf_acc_015,Prospecting,70000,2026-06-18,CFO -- Security ROI Framework,ae_6
+sf_opp_141,Ironclad Defense --Identity Governance,sf_acc_017,Qualification,55000,2026-05-19,CFO -- Budget Freeze Outbound,ae_6
+sf_opp_142,Meridian Financial Group --Incident Response Retainer,sf_acc_003,Qualification,455000,2026-08-15,VP Marketing -- Pipeline Attribution,ae_9
+sf_opp_143,Hartwell Industries --Pen Test Engagement,sf_acc_006,Proposal/Price Quote,295000,2026-05-16,CFO -- Budget Freeze Outbound,ae_9
+sf_opp_144,Meridian Financial Group --Risk Dashboard,sf_acc_003,Proposal/Price Quote,475000,2026-05-15,Partner Referral,ae_10
+sf_opp_145,Hartwell Industries --Container Security,sf_acc_006,Closed Won,225000,2026-03-19,Inbound,ae_10
+sf_opp_146,Pinnacle Manufacturing Co --Data Loss Prevention,sf_acc_011,Qualification,320000,2026-07-10,Web,ae_10
+sf_opp_147,Meridian Financial Group --Cloud Workload Protection,sf_acc_003,Closed Lost,340000,2025-11-15,Inbound,ae_10
+sf_opp_148,Hartwell Industries --Security Awareness Training,sf_acc_006,Needs Analysis,395000,2026-05-21,Inbound,ae_10
+sf_opp_149,Pinnacle Manufacturing Co --Managed Detection & Response,sf_acc_011,Qualification,325000,2026-07-04,Event,ae_10
+sf_opp_150,Meridian Financial Group --SOC-as-a-Service,sf_acc_003,Closed Won,235000,2025-11-11,Web,ae_10
+sf_opp_151,Hartwell Industries --Privileged Access Management,sf_acc_006,Qualification,310000,2026-08-04,Inbound,ae_10
+sf_opp_152,Northstar Platforms --Enterprise Security Suite,sf_acc_050,Negotiation,65000,2025-09-22,Marketing Event,ae_2
+sf_opp_153,Onyx Security --Cloud Posture Starter,sf_acc_029,Negotiation,100000,2026-01-19,Referral,ae_10
+sf_opp_154,Cascade Innovations --DevSecOps Platform,sf_acc_057,Needs Analysis,95000,2026-04-26,Inbound,ae_10
+sf_opp_155,Solace Financial --Threat Detection Module,sf_acc_065,Negotiation,95000,2025-12-22,Inbound,ae_1
+sf_opp_156,Zenith Cloud --Compliance Automation,sf_acc_085,Closed Won,195000,2025-11-16,Marketing Event,ae_2
+sf_opp_157,Fulcrum Group --Endpoint Protection,sf_acc_088,Negotiation,55000,2025-07-19,Referral,ae_3
+sf_opp_158,Flint Automation --Security Posture Assessment,sf_acc_081,Negotiation,90000,2025-07-19,Marketing Event,ae_4
+sf_opp_159,Lyric Platforms --Vulnerability Management,sf_acc_080,Closed Won,150000,2026-03-10,Website,ae_4
+sf_opp_160,Beacon Industries --Zero Trust Rollout,sf_acc_030,Negotiation,85000,2025-08-21,Referral,ae_4
+sf_opp_161,Ironbridge Automation --API Security Gateway,sf_acc_051,Needs Analysis,155000,2026-06-11,Marketing Event,ae_2
+sf_opp_162,Wren Labs --SIEM Integration,sf_acc_046,Closed Won,45000,2025-12-08,Website,ae_4
+sf_opp_163,Paladin Industries --Identity Governance,sf_acc_060,Negotiation,75000,2025-12-23,Referral,ae_2
+sf_opp_164,Trident Ventures --Incident Response Retainer,sf_acc_034,Negotiation,50000,2026-03-18,Referral,ae_10
+sf_opp_165,Pike Innovations --Pen Test Engagement,sf_acc_027,Negotiation,80000,2025-11-13,Marketing Event,ae_8
+sf_opp_166,Xenon Digital --Risk Dashboard,sf_acc_042,Closed Won,95000,2025-10-09,Referral,ae_8
+sf_opp_167,Kinetic Labs --Container Security,sf_acc_076,Negotiation,145000,2025-10-19,Marketing Event,ae_10
+sf_opp_168,Ridgeline Capital --Data Loss Prevention,sf_acc_077,Negotiation,200000,2026-03-04,Website,ae_2
+sf_opp_169,Neon Partners --Cloud Workload Protection,sf_acc_043,Negotiation,55000,2025-11-18,Website,ae_9
+sf_opp_170,Halcyon Logistics --Security Awareness Training,sf_acc_068,Closed Lost,50000,2026-02-12,Referral,ae_4
+sf_opp_171,Obsidian Dynamics --Managed Detection & Response,sf_acc_061,Negotiation,90000,2026-02-17,Referral,ae_4
+sf_opp_172,Aegis Enterprises --SOC-as-a-Service,sf_acc_037,Closed Lost,45000,2025-09-02,Inbound,ae_7
+sf_opp_173,Lumen Enterprises --Privileged Access Management,sf_acc_067,Negotiation,35000,2025-10-02,Marketing Event,ae_4
+sf_opp_174,Pinnacle Group --Network Segmentation,sf_acc_028,Closed Won,150000,2026-02-05,Inbound,ae_9
+sf_opp_175,Citadel Digital --Threat Intelligence Feed,sf_acc_072,Closed Won,75000,2026-03-02,Referral,ae_2
+sf_opp_176,Cobalt Logistics --Security Operations Center,sf_acc_098,Negotiation,125000,2026-02-21,Inbound,ae_9
+sf_opp_177,Metric Innovations --Enterprise Security Suite,sf_acc_087,Negotiation,80000,2025-08-10,Website,ae_8
+sf_opp_178,Juno Intelligence --Cloud Posture Starter,sf_acc_099,Negotiation,130000,2026-04-12,Website,ae_2
+sf_opp_179,Vanguard Dynamics --DevSecOps Platform,sf_acc_031,Closed Lost,100000,2025-10-11,Inbound,ae_10
+sf_opp_180,Vertex Industries --Threat Detection Module,sf_acc_090,Needs Analysis,125000,2026-05-01,Marketing Event,ae_5
+sf_opp_181,Optima Ventures --Compliance Automation,sf_acc_064,Closed Won,100000,2026-03-05,Website,ae_5
+sf_opp_182,Cordova Software --Endpoint Protection,sf_acc_045,Closed Lost,145000,2025-07-08,Referral,ae_9
+sf_opp_183,Zephyr Health --Security Posture Assessment,sf_acc_092,Negotiation,110000,2026-01-16,Marketing Event,ae_4
+sf_opp_184,Volta Corp --Vulnerability Management,sf_acc_052,Closed Lost,95000,2026-03-25,Website,ae_3
+sf_opp_185,Quantum Solutions --Zero Trust Rollout,sf_acc_049,Closed Won,185000,2026-03-05,Referral,ae_6
+sf_opp_186,Nimbus Partners --API Security Gateway,sf_acc_073,Negotiation,55000,2025-12-07,Referral,ae_8
+sf_opp_187,Ember Dynamics --SIEM Integration,sf_acc_091,Closed Won,60000,2026-02-15,Referral,ae_7
+sf_opp_188,Sentinel Financial --Identity Governance,sf_acc_095,Closed Lost,80000,2026-01-12,Referral,ae_4
+sf_opp_189,Atlas Services --Incident Response Retainer,sf_acc_041,Negotiation,45000,2025-07-01,Referral,ae_7
+sf_opp_190,Opal Systems --Pen Test Engagement,sf_acc_033,Negotiation,50000,2026-01-25,Website,ae_7
+sf_opp_191,Evergreen Group --Risk Dashboard,sf_acc_058,Negotiation,40000,2026-01-06,Referral,ae_4
+sf_opp_192,Elevate Health --Container Security,sf_acc_062,Negotiation,145000,2025-08-01,Referral,ae_8
+sf_opp_193,Stratos Security --Data Loss Prevention,sf_acc_059,Closed Lost,120000,2026-01-13,Referral,ae_6
+sf_opp_194,Crest Technologies --Cloud Workload Protection,sf_acc_086,Closed Won,125000,2025-09-28,Inbound,ae_4
+sf_opp_195,Ardent Networks --Security Awareness Training,sf_acc_096,Closed Won,150000,2026-01-28,Website,ae_2
+sf_opp_196,Riviera Works --Managed Detection & Response,sf_acc_054,Negotiation,135000,2025-09-26,Referral,ae_2
+sf_opp_197,Axiom Data --SOC-as-a-Service,sf_acc_078,Closed Won,80000,2026-03-27,Referral,ae_10
+sf_opp_198,Relay Security --Privileged Access Management,sf_acc_089,Negotiation,190000,2026-03-08,Referral,ae_9
+sf_opp_199,Polaris Consulting --Network Segmentation,sf_acc_070,Negotiation,15000,2026-03-05,Marketing Event,ae_7
+sf_opp_200,Talon Analytics --Threat Intelligence Feed,sf_acc_074,Closed Won,120000,2026-02-11,Inbound,ae_10
+sf_opp_201,Equinox Consulting --Security Operations Center,sf_acc_100,Closed Won,85000,2025-12-12,Referral,ae_7
+sf_opp_202,Haven Networks --Enterprise Security Suite,sf_acc_036,Closed Lost,125000,2025-08-08,Website,ae_10
+sf_opp_203,Quasar Enterprises --Cloud Posture Starter,sf_acc_097,Negotiation,145000,2025-08-05,Referral,ae_4
+sf_opp_204,Bastion Analytics --DevSecOps Platform,sf_acc_044,Negotiation,15000,2025-09-22,Marketing Event,ae_4
+sf_opp_205,Trellis Logistics --Threat Detection Module,sf_acc_038,Negotiation,395000,2025-10-13,Website,ae_10
+sf_opp_206,Vector Technologies --Compliance Automation,sf_acc_056,Negotiation,130000,2025-08-11,Inbound,ae_2
+sf_opp_207,Aether Intelligence --Endpoint Protection,sf_acc_039,Closed Won,80000,2025-06-09,Inbound,ae_10
+sf_opp_208,Helix Health --Security Posture Assessment,sf_acc_032,Closed Won,75000,2026-02-01,Inbound,ae_5

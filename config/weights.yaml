@@ -16,10 +16,13 @@ signal_weights:
     pricing_page_visit: 25
     demo_request: 35
     content_download: 10
+    case_study_view: 12
+    web_visit: 5
 
   funding_growth:
     new_funding_round: 20
     headcount_growth: 10
+    technology_install: 8
 
   crm_activity:
     last_activity_recent: 10
