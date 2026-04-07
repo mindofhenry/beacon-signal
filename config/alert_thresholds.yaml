@@ -1,0 +1,45 @@
+# Alert tier definitions and thresholds
+
+tiers:
+  CRITICAL:
+    delivery: ["slack_dm", "mcp"]
+    conditions:
+      - type: tier1_uncontacted
+        threshold_minutes: 60
+        description: "Tier 1 lead assigned, uncontacted > 1hr"
+      - type: high_score_active
+        min_score: 80
+        description: "High-score signal fires on active account"
+      - type: reengagement_window
+        description: "Prospect went dark, now active"
+
+  HIGH:
+    delivery: ["slack_dm"]
+    conditions:
+      - type: untouched_high_score
+        min_score: 60
+        untouched_hours: 48
+        description: "Account untouched > 48hrs with signal score > 60"
+      - type: sequence_underperforming
+        description: "Sequence step underperforming vs team average"
+      - type: competitor_mention
+        description: "Competitor mention detected in recent activity"
+
+  STANDARD:
+    delivery: ["digest"]
+    conditions:
+      - type: morning_digest
+        top_n: 5
+        description: "Daily prioritized account list (top 5 by score)"
+      - type: coverage_gaps
+        description: "Accounts with no activity this week"
+
+settings:
+  max_realtime_alerts_per_rep_per_day: 3
+  morning_digest_time: "08:00"
+  morning_digest_timezone: "America/Los_Angeles"
+
+sla:
+  tier_1: 60
+  tier_2: 240
+  tier_3: 1440

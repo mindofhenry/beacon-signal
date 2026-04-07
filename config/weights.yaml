@@ -1,0 +1,47 @@
+# Signal weights — used by scoring engine
+# Managers configure at org level. Reps tune within bounds.
+# Weight range: 0-100. Higher = stronger signal.
+
+signal_weights:
+  job_change:
+    champion_hired: 30
+    economic_buyer_change: 25
+    champion_departed: -15
+
+  intent_surge:
+    category_research: 20
+    competitor_research: 15
+
+  engagement:
+    pricing_page_visit: 25
+    demo_request: 35
+    content_download: 10
+
+  funding_growth:
+    new_funding_round: 20
+    headcount_growth: 10
+
+  crm_activity:
+    last_activity_recent: 10
+    open_opportunity: 15
+    sequence_enrolled: 5
+
+# Time decay — half-life in days per signal type
+time_decay:
+  job_change: 60
+  intent_surge: 14
+  engagement: 21
+  funding_growth: 45
+  crm_activity: 7
+
+# Velocity — bonus when signals accumulate rapidly
+velocity:
+  window_days: 14
+  min_signals: 3
+  bonus_multiplier: 1.25
+
+# Org-level bounds — reps tune within these
+bounds:
+  min_weight: 0
+  max_weight: 50
+  min_score_for_alert: 70
