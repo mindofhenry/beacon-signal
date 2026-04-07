@@ -46,12 +46,15 @@ pipeline/
 
 alerts/
   engine.py           # Alert evaluation — checks scores against thresholds (Phase 4)
+  formatter.py        # Slack Block Kit message formatting for all alert tiers (Phase 4)
+  slack.py            # Slack bot — DM delivery, digest, feedback buttons (Phase 4)
 
 server/
   server.py           # FastMCP server with 5 tools (Phase 3)
 
 scripts/
   test_mcp_tools.py   # MCP tool validation script (Phase 3)
+  test_alerts.py      # Alert engine validation script (Phase 4)
 
 config/
   weights.yaml        # Signal weights, time decay half-lives, velocity settings
@@ -240,7 +243,7 @@ score explainable.
 1. ✅ **Phase 1 — Skeleton:** Adapter interfaces, scoring engine, schema, config
 2. ✅ **Phase 2 — Scoring Engine + Mock Data:** Adapters wired to beacon-data synthetic signals; DataLoader, run_scoring.py; 5987 signals across 434 accounts scored end-to-end
 3. ✅ **Phase 3 — LLM Layer + MCP Server:** Claude API explainer with template fallback, FastMCP server with 5 tools, validation script
-4. 🔲 **Phase 4 — Alert Delivery:** Alert evaluation, Slack bot, feedback buttons
+4. ✅ **Phase 4 — Alert Delivery:** Alert evaluation engine (CRITICAL/HIGH/STANDARD tiers), Slack Block Kit formatter, Slack bot with Socket Mode + console fallback, feedback buttons, morning digest
 5. 🔲 **Phase 5 — Dashboard:** Next.js frontend, score breakdown panel, signal timeline
 6. 🔲 **Phase 6 — Rep Feedback Loop:** Slack form, feedback aggregation, learning system
 
@@ -252,7 +255,7 @@ validated.
 | # | Question | Status |
 |---|---|---|
 | 1 | How does Signal read Loop's CRM data? Direct query vs shared view. | **Not decided** — stubbed to mock data |
-| 5 | New Slack bot or extend Intel's existing bot? | **Not decided** — needed before Phase 4 |
+| 5 | New Slack bot or extend Intel's existing bot? | **Decided** — same Slack app, separate process. Signal's bot at `alerts/slack.py` shares tokens with Intel's bot at `beacon/slack_bot.py`. Socket Mode supports multiple concurrent connections. |
 
 ## Key Reference Repos
 
@@ -301,6 +304,12 @@ python scripts/test_mcp_tools.py
 
 # Run MCP server locally (Phase 3+)
 python server/server.py
+
+# Validate alert engine (Phase 4+)
+python scripts/test_alerts.py
+
+# Run Signal Slack bot (Phase 4+ — console mode if no Slack tokens)
+python alerts/slack.py
 ```
 
 ## Response Format
