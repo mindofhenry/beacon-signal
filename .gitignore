@@ -9,3 +9,9 @@ build/
 node_modules/
 .next/
 .vercel/
+
+# Claude Code working files
+findings.md
+progress.md
+task_plan.md
+.claude/
