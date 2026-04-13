@@ -55,6 +55,7 @@ server/
 scripts/
   test_mcp_tools.py   # MCP tool validation script (Phase 3)
   test_alerts.py      # Alert engine validation script (Phase 4)
+  load_to_supabase.py # Load synthetic data into Supabase signal tables
 
 config/
   weights.yaml        # Signal weights, time decay half-lives, velocity settings
@@ -114,6 +115,11 @@ not allowed.
 
 - **Schema is `signal`, not `public`.** Loop owns `public`. All Signal tables
   go in the `signal` schema. Always prefix table names with `signal.` in queries.
+- **ID columns are TEXT, not UUID.** Migrated 2026-04-12 to match beacon-data's
+  string IDs (`sf_acc_011`, `sdr_1`, `sig_00001`, etc.). No `DEFAULT gen_random_uuid()`.
+- **PostgREST schema exposure:** The `signal` schema is exposed via
+  `ALTER ROLE authenticator SET pgrst.db_schemas`. When using supabase-py,
+  access tables with `sb.schema("signal").table("table_name")`.
 - **Supabase project ID:** `qzeehftbbvccqoqdpoey` (shared with Loop).
 - **No per-user RLS.** Service role key only.
 - **Always destructure and check errors** on every Supabase call.
@@ -307,6 +313,9 @@ python server/server.py
 
 # Validate alert engine (Phase 4+)
 python scripts/test_alerts.py
+
+# Load synthetic data into Supabase signal tables
+python scripts/load_to_supabase.py
 
 # Run Signal Slack bot (Phase 4+ — console mode if no Slack tokens)
 python alerts/slack.py

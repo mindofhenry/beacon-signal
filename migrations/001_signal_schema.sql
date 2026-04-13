@@ -1,30 +1,33 @@
 -- Beacon Signal — Schema Migration
 -- Creates `signal` schema and all core tables.
 -- Signal tables go in `signal` schema, NOT `public` (Loop owns `public`).
+--
+-- NOTE: All ID columns use TEXT (not UUID) to match beacon-data's string IDs
+-- (sf_acc_011, sdr_1, sig_00001, etc.). Migration applied 2026-04-12.
 
 CREATE SCHEMA IF NOT EXISTS signal;
 
 -- signal_events
 CREATE TABLE signal.signal_events (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    account_id UUID NOT NULL,
+    id TEXT PRIMARY KEY,
+    account_id TEXT NOT NULL,
     signal_type TEXT NOT NULL,
     signal_value JSONB NOT NULL DEFAULT '{}',
     weight_applied NUMERIC NOT NULL DEFAULT 0,
     reason_text TEXT NOT NULL DEFAULT '',
     triggered_at TIMESTAMPTZ NOT NULL DEFAULT now(),
-    contributed_to_score_id UUID,
+    contributed_to_score_id TEXT,
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
 -- score_history
 CREATE TABLE signal.score_history (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    account_id UUID NOT NULL,
-    rep_id UUID,
+    id TEXT PRIMARY KEY,
+    account_id TEXT NOT NULL,
+    rep_id TEXT,
     final_score NUMERIC NOT NULL DEFAULT 0,
     score_breakdown JSONB NOT NULL DEFAULT '[]',
-    tribal_pattern_id UUID,
+    tribal_pattern_id TEXT,
     tribal_pattern_text TEXT,
     calculated_at TIMESTAMPTZ NOT NULL DEFAULT now(),
     rep_feedback TEXT
@@ -38,7 +41,7 @@ ALTER TABLE signal.signal_events
 
 -- tribal_patterns
 CREATE TABLE signal.tribal_patterns (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    id TEXT PRIMARY KEY,
     pattern_name TEXT NOT NULL,
     pattern_description TEXT NOT NULL DEFAULT '',
     signal_conditions JSONB NOT NULL DEFAULT '{}',
@@ -56,8 +59,8 @@ ALTER TABLE signal.score_history
 
 -- account_preferences
 CREATE TABLE signal.account_preferences (
-    rep_id UUID NOT NULL,
-    account_id UUID NOT NULL,
+    rep_id TEXT NOT NULL,
+    account_id TEXT NOT NULL,
     snoozed_until TIMESTAMPTZ,
     priority_override NUMERIC,
     override_reason TEXT,
@@ -68,9 +71,9 @@ CREATE TABLE signal.account_preferences (
 
 -- alert_log
 CREATE TABLE signal.alert_log (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    account_id UUID NOT NULL,
-    rep_id UUID NOT NULL,
+    id TEXT PRIMARY KEY,
+    account_id TEXT NOT NULL,
+    rep_id TEXT NOT NULL,
     alert_tier TEXT NOT NULL CHECK (alert_tier IN ('CRITICAL', 'HIGH', 'STANDARD')),
     alert_type TEXT NOT NULL,
     score_at_fire NUMERIC NOT NULL DEFAULT 0,
